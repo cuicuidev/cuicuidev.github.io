@@ -1,6 +1,6 @@
-import { Socials  } from "./components/Socials";
-import { Projects } from "./components/Projects";
-import { Testimonials } from "./components/Testimonials";
+import { Socials  } from "./src/components/Socials";
+import { Projects } from "./src/components/Projects";
+import { Testimonials } from "./src/components/Testimonials";
 
-import "./components/Projects";
-import "./components/Testimonials";
+import "./src/components/Projects";
+import "./src/components/Testimonials";
