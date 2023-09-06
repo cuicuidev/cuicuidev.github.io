@@ -8,15 +8,15 @@
 }
 
 /*TAGS =================================================================================================*/
-
 html {
     color-scheme: dark;
+    background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
 }
 
 body {
     overflow-x: hidden;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background: linear-gradient(-10deg, #222222 80.5%, #444444 80.5%);
+    background: linear-gradient(-5deg, #222222 90.5%, #44444400 90.5%);
     color: #DDDDDD;
 }
 
@@ -92,8 +92,7 @@ footer {
 /*BACKGROUND COMPONENTS =================================================================================================*/
 
 #about {
-    --skew-angle: -5deg;
-    --background: linear-gradient(45deg, #12c2e9, #c471ed, #ff004c);
+    --background: #202020;
 
     position: relative;
     isolation: isolate;
@@ -114,7 +113,8 @@ footer {
 }
 
 #portfolio {
-    --background: #222222;
+    --skew-angle: -5deg;
+    --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
 
     position: relative;
     isolation: isolate;
@@ -135,7 +135,7 @@ footer {
 }
 
 #testimonials {
-    --background: #444444;
+    --background: #222222;
 
     position: relative;
     isolation: isolate;
@@ -157,7 +157,7 @@ footer {
 
 #contact {
     --skew-angle: -5deg;
-    --background: #222222;
+    --background: #202020;
 
     position: relative;
     isolation: isolate;
@@ -200,10 +200,35 @@ footer {
 /*UTIL =================================================================================================*/
 
 .wrapper {
-    max-width: 50rem;
+    max-width: 70rem;
     margin-left: auto;
     margin-right: auto;
     padding-inline: 1rem;
+}
+
+.wrapper h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.wrapper p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-wrapper {
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: 1rem;
+}
+
+.portfolio-wrapper h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 /*SLIDING ANIMATIONS =================================================================================================*/
@@ -226,4 +251,12 @@ footer {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+#subtitle-dev {
+    transition-delay: 1s;
+}
+
+#subtitle-psy {
+    transition-delay: 3s;
 }
