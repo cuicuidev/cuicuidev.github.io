@@ -3,6 +3,7 @@
 
 <head>
     <title>Cuicui</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script defer src="/app.js"></script>
 </head>
@@ -13,7 +14,7 @@
             <ul>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#skills">My skills</a></li>
-                <li><a href="#portfolio">My work</a></li>
+                <li><a href="#data">My work</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Get in touch</a></li>
             </ul>
@@ -31,65 +32,172 @@
     <main>
         <section id="about">
             <div class="wrapper">
-                <h2 class="hidden left">About me</h2>
-                <p class="hidden section-content">Born and raised in Russia, at only 11 years of age I moved to Spain. 
-                    A whole new people and culture to adapt to, as well as a new language which stood in the way of my education. 
-                    Eventually, years have passed and I managed to fight through the hardships and become who I am today, 
-                    an exceptionally skilled data scientist and software developer. 
-                    Along with my psychology degree, I possess a unique toolset for problem solving. 
+                <h2 class="hidden right">About me</h2>
+                <p class="hidden section-content">
+                    As a child I've always been fascinated by computers and technology. In my early teenage years I was first introduced to programming when trying to 
+                    figure out how videogames are made. Since then, I've been learning new technologies all my life until today. My biggest commitment to programming happened in 2022, when I finally 
+                    discovered my biggest passion of them all, data science. I began reinforcing my statistic fundamentals, dedicated myself completely to learning the 
+                    ins and outs of Python, and then enrolled in a Data Science bootcamp at Hackaboss. Over 6 entire months, I spent at least 32 hours each week to learn everything that was thrown at 
+                    my table during the bootcamp, as well as tackle some other areas of development in Python, such as back-end with Django and game-dev with pygame. Also, I spent some time complementing my back-end 
+                    learning with front-end development using vanilla js, html and css, as well as mobile cross-platform development with Flutter and Dart. Now that I finally feel ready, I'm seeking my first job 
+                    opportunity in the IT sector. I'm eager to work in any field I've been studying so far, as well as to broaden my horizons and aquiere expertise in new technologies. As a mostly self-taught 
+                    developer, I believe I posses the skillset necessary to achieve anything I set myself up to.
                 </p>
             </div>
         </section>
 
         <section id="skills">
-            <div class="wrapper">
-                <h2 class="hidden left">My skills</h2>
-                <p class="hidden section-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi possimus ipsum vitae, ducimus sequi assumenda id praesentium fugit dolorum minima beatae animi illo veritatis voluptatibus consequuntur vero voluptates nihil.
-                </p>
+            <div class="skills-wrapper">
+                <h2 class="hidden">My skills</h2>
+                <div class="skills-grid">
+                    <article>
+                        <a href="#data">
+                            <div class="drawer-container" id="machine-learning">
+                                <div class="drawer">
+                                    <h3>Machine Learning</h3>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" id="machine-learning-skill-level">
+            
+                                        </div>
+                                    </div>
+                                    <p>Using tools ranging from simple Naive Bayes classifiers to deep neural network regressors, I can solve any prediction problem</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article></article>
+
+                    <article>
+                        <a href="#data">
+                            <div class="drawer-container" id="data-analytics">
+                                <div class="drawer">
+                                    <h3>Data Analytics</h3>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" id="data-analytics-skill-level">
+            
+                                        </div>
+                                    </div>
+                                    <p>I can navigate any data, exctract the most valuable insights and present them in the most intuitive of ways</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article></article>
+                    <article></article>
+                    <article>
+                        <a href="#software">
+                            <div class="drawer-container" id="back-end">
+                                <div class="drawer">
+                                    <h3>Back End</h3>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" id="back-end-skill-level">
+            
+                                        </div>
+                                    </div>
+                                    <p>Need to store and retrieve your business data? Handle access and privacy? All of the above? Don't worry, I am here to build your API</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article></article>
+                    <article>
+                        <a href="#software">
+                            <div class="drawer-container" id="front-end">
+                                <div class="drawer">
+                                    <h3>Front End</h3>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" id="front-end-skill-level">
+            
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Web or mobile, I can build an interface that gives you an extraordinary 
+                                        user experience, ensuring your business is always at your fingertips
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
             </div>
         </section>
 
-        <section id="portfolio">
-            <div class="portfolio-wrapper">
-                <h2>My work</h2>
+        <section id="data">
+            <div class="wrapper">
+                <h2 class="hidden">Data</h2>
+                
+                <div class="main-article">
+                    <div class="main-article-drawer-container" id="car-make-classification">
+                        <div class="main-article-drawer">
+                            <h3>Car Make Classification</h3>
+                            <p>
+                                Leveraging the computing power of GPUs, I've managed to train a deep neural network that can classify a car image and predict it's manufacturer with 33% accuracy. <br><br>
+                                I know, I know... That doesn't sound like a lot, but using data augmentation, varying kernel sizes, learning rate schedulers, input sizes and many other fine tuning techniques, I've managed to bring 
+                                up the accuracy all the way up from an initial 24%. Given my limited resources and the size of the dataset used, which was fairly small for a classification 
+                                task with 39 categories, that is a great improvement. Granted access to high quality data, I can turn your 80% model into a 90% one! <br><br>
+                                Not only I've trained the model, but I made it accessible on Streamlit, so you can try it out for yourself. Also, feel free to check out the github repo!
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="portfolio-grid">
                     <article>
-                        <div class="drawer-container" id="machine-learning">
+                        <div class="drawer-container" id="igdb-etl">
                             <div class="drawer">
-                                <h3>Machine Learning</h3>
-                                <p>Using tools ranging from simple Naive Bayes classifiers to deep neural network regressors, I can solve any prediction problem</p>
+                                <h3>Twitch's IGTB ETL Pipeline</h3>
+                                <p>
+                                    I love videogames. I also love programming. And for that, I've accessed the Internet Games Database and collected useful insights for game developers.
+                                </p>
                             </div>
                         </div>
                     </article>
+                    
+                    <article>
+                        <div class="drawer-container" id="car-price-regression">
+                            <div class="drawer">
+                                <h3>Car Price Regression</h3>
+                                <p>
+                                    Not so long ago I was looking to buy a car, so I trained a Random Forest Regressor that would give me a fair price with a 0.9 r squared score.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
 
-                    <article></article>
+            </div>
+        </section>
 
-                    <article>
-                        <div class="drawer-container" id="data-analytics">
-                            <div class="drawer">
-                                <h3>Data Analytics</h3>
-                                <p>I can navigate any data, exctract the most valuable insights and present them in the most intuitive of ways</p>
-                            </div>
+        <section id="software">
+            <div class="wrapper">
+                <h2 class="hidden">Software</h2>
+                
+                <div class="main-article">
+                    <div class="main-article-drawer-container" id="fitness-app-backend">
+                        <div class="main-article-drawer">
+                            <h3>My Gym Bro</h3>
+                            <p>
+                                This is an idea I had a while ago. I'm a regular gym goer and I thought it would be convinient to have a mobile app that allowed me to track my progress 
+                                and visualize it. This is exactly that.<br><br>
+                                I am using Django as my back-end, PostgreSQL as my database and Gunicorn along with Nginx as my server. Everything is 
+                                containerized with Docker. This API allows crud operations on gym tracking entries and JSON Web Token authentication methods with RS512 encription. There is also CI/CD pipelines in place 
+                                that check dev and production environments setup.<br><br>
+                                The front-end is not yet created, although I'm planning on using Flutter for the mobile app and tackle with a new JS framework to showcase the product on the Internet.<br><br>
+                                I've got to admit, this is my most ambitious project so far and not even the back-end is ready for deployment. I fear I might have taken a task too big for one person to acomplish. 
+                                However, I want to take on the challenge and learn from the experience.<br><br>
+                                Even if this is an unfinished project, I want to showcase it here regardless, so that you can always take a sneak peek and see what I am capable of!
+                            </p>
                         </div>
-                    </article>
-                    <article></article>
-                    <article></article>
+                    </div>
+                </div>
+                <div class="portfolio-grid">
                     <article>
-                        <div class="drawer-container" id="back-end">
+                        <div class="drawer-container" id="personal-portfolio">
                             <div class="drawer">
-                                <h3>Back End</h3>
-                                <p>Need to store and retrieve your business data? Handle access and privacy? All of the above? Don't worry, I am here to build your API</p>
-                            </div>
-                        </div>
-                    </article>
-                    <article></article>
-                    <article>
-                        <div class="drawer-container" id="front-end">
-                            <div class="drawer">
-                                <h3>Front End</h3>
-                                <p>Web or mobile, I can build an interface that gives you an extraordinary
-                                     user experience, ensuring your business is always at your fingertips</p>
+                                <h3>Personal Portfolio</h3>
+                                <p>
+                                    Recursion, isn't it funny?
+                                </p>
                             </div>
                         </div>
                     </article>
@@ -99,21 +207,23 @@
 
         <section id="testimonials">
             <div class="wrapper">
-                <h2>Testimonials</h2>
-                <article>
-                    <h3></h3>
-                    <p></p>
-                </article>
-                <article>
-                    <h3></h3>
-                    <p></p>
-                </article>
+                <h2 class="hidden right">Testimonials</h2>
+                <div class="hidden">
+                    <article>
+                        <h3></h3>
+                        <p></p>
+                    </article>
+                    <article>
+                        <h3></h3>
+                        <p></p>
+                    </article>
+                </div>
             </div>
         </section>
 
         <section id="contact">
             <div class="wrapper">
-                <h2>Contact me!</h2>
+                <h2 class="hidden">Contact me!</h2>
             </div>
         </section>
 

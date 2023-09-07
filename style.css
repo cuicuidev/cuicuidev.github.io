@@ -15,7 +15,7 @@ html {
 
 body {
     overflow-x: hidden;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Roboto', sans-serif;
     background: linear-gradient(-5deg, #222222 90.5%, #44444400 90.5%);
     color: #DDDDDD;
 }
@@ -32,7 +32,15 @@ section {
 
 footer {
     min-height: 30vh;
-    background-color: #444444;
+    background-color: #222222;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 20px;
 }
 
 /*ACCENTS =================================================================================================*/
@@ -55,21 +63,23 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    list-style: none;
     padding: 10px;
     margin: 0px;
-}
-
-.navbar ul {
-    list-style: none;
-}
-
-.navbar li {
-    margin-right: 20px;
 }
 
 .navbar a {
     text-decoration: none;
     color: currentColor;
+    padding: 10px;
+    border-bottom: solid;
+    border-bottom-color: #ff006200;
+    border-bottom-width: 2px;
+}
+
+.navbar a:hover {
+    color: #ff0062;
+    border-bottom-color: #ff0062;
 }
 
 /*LANDING =================================================================================================*/
@@ -140,7 +150,7 @@ footer {
     height: 200%;
 }
 
-#portfolio {
+#data {
     --background: #222222;
 
     position: relative;
@@ -148,7 +158,28 @@ footer {
     min-height: 100vh;
 }
 
-#portfolio::after {
+#data::after {
+    content: '';
+    background: var(--background);
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(var(--skew-angle));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+}
+
+#software {
+    --background: #202020;
+
+    position: relative;
+    isolation: isolate;
+    min-height: 60vh;
+}
+
+#software::after {
     content: '';
     background: var(--background);
     position: absolute;
@@ -162,7 +193,8 @@ footer {
 }
 
 #testimonials {
-    --background: #202020;
+    --skew-angle: -5deg;
+    --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
 
     position: relative;
     isolation: isolate;
@@ -183,8 +215,7 @@ footer {
 }
 
 #contact {
-    --skew-angle: -5deg;
-    --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
+    --background: #222222;
 
     position: relative;
     isolation: isolate;
@@ -205,7 +236,7 @@ footer {
 }
 
 #footer {
-    --background: #444444;
+    --background: #202020;
 
     position: relative;
     isolation: isolate;
@@ -245,20 +276,32 @@ footer {
     margin-bottom: 20px;
 }
 
-.portfolio-wrapper {
+.skills-wrapper {
     max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
     padding-inline: 1rem;
 }
 
-.portfolio-wrapper h2 {
+.skills-wrapper h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
 
-.portfolio-grid {
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+.skills-grid a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.other-skills-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -269,17 +312,17 @@ footer {
 
 .hidden {
     opacity: 0;
-    filter: blur(5px);
+    filter: blur(2px);
     transition: all 1s;
 }
 
-.left {
-    transform: translateX(-100%);
+/* .left {
+    transform: translateX(-30%);
 }
 
 .right {
-    transform: translateX(100%);
-}
+    transform: translateX(30%);
+} */
 
 .show {
     opacity: 1;
@@ -288,7 +331,7 @@ footer {
 }
 
 .section-content {
-    transition: all 2s;
+    transition: all 1s;
     transition-delay: 1s;
 }
 
@@ -307,10 +350,31 @@ footer {
     overflow: hidden;
     background-size: cover;
     background-position: center;
+    position: relative;
+    border-radius: 10px;
 }
 
 .drawer-container:hover .drawer {
-    top: 150px;
+    top: 100px;
+}
+
+.drawer-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.drawer-container:hover::before {
+    opacity: 1;
 }
 
 .drawer {
@@ -331,6 +395,7 @@ footer {
 }
 
 .drawer p {
+    font-size: 16px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -352,4 +417,132 @@ footer {
 
 #front-end {
     background-image: url(./assets/front_end.jpg);
+}
+
+/*PROGRESS BAR =================================================================================================*/
+
+.skill-bar {
+    width: auto;
+    height: 10px;
+    background-color: #ccc;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #ff0062;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    border-radius: inherit;
+}
+
+#machine-learning-skill-level {
+    width: 90%;
+}
+
+#data-analytics-skill-level {
+    width: 75%;
+}
+
+#front-end-skill-level {
+    width: 50%;
+}
+
+#back-end-skill-level {
+    width: 65%;
+}
+
+/*MAIN ARTICLE DRAWER =================================================================================================*/
+
+.main-article-drawer-container {
+    margin: 0 auto;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.main-article-drawer-container:hover .main-article-drawer {
+    top: 200px;
+}
+
+.main-article-drawer-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-article-drawer-container:hover::before {
+    opacity: 1;
+}
+
+.main-article-drawer {
+    height: 600px;
+    margin: 0 auto;
+    background-color: #000000;
+    opacity: 0.6;
+    transition: all 0.6s ease;
+    position: relative;
+    top: 600px;
+  }
+
+.main-article-drawer h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-article-drawer p {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.portfolio-grid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+/*DATA ARTICLES =================================================================================================*/
+
+#car-make-classification {
+    background-image: url(./assets/car_make_classification.png);
+}
+
+#igdb-etl {
+    background-image: url(./assets/igdb_etl.avif);
+}
+
+#car-price-regression {
+    background-image: url(./assets/car_price_regression.jpg);
+}
+
+/*SOFTWARE ARTICLES =================================================================================================*/
+
+#fitness-app-backend {
+    background-image: url(./assets/fitness_app_backend.webp);
+}
+
+#personal-portfolio {
+    background-image: url(./assets/personal_portfolio.png);
 }
