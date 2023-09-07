@@ -20,6 +20,12 @@ body {
     color: #DDDDDD;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
 section {
     padding-block: 5rem;
 }
@@ -112,9 +118,30 @@ footer {
     height: 200%;
 }
 
-#portfolio {
+#skills {
     --skew-angle: -5deg;
     --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
+
+    position: relative;
+    isolation: isolate;
+    min-height: 100vh;
+}
+
+#skills::after {
+    content: '';
+    background: var(--background);
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(var(--skew-angle));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+}
+
+#portfolio {
+    --background: #222222;
 
     position: relative;
     isolation: isolate;
@@ -135,7 +162,7 @@ footer {
 }
 
 #testimonials {
-    --background: #222222;
+    --background: #202020;
 
     position: relative;
     isolation: isolate;
@@ -157,7 +184,7 @@ footer {
 
 #contact {
     --skew-angle: -5deg;
-    --background: #202020;
+    --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
 
     position: relative;
     isolation: isolate;
@@ -209,7 +236,7 @@ footer {
 .wrapper h2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .wrapper p {
@@ -229,6 +256,13 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
 }
 
 /*SLIDING ANIMATIONS =================================================================================================*/
@@ -253,10 +287,69 @@ footer {
     transform: translateX(0);
 }
 
+.section-content {
+    transition: all 2s;
+    transition-delay: 1s;
+}
+
 #subtitle-dev {
     transition-delay: 1s;
 }
 
 #subtitle-psy {
     transition-delay: 3s;
+}
+
+/*HOVER ANIMATIONS =================================================================================================*/
+
+.drawer-container {
+    margin: 0 auto;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.drawer-container:hover .drawer {
+    top: 150px;
+}
+
+.drawer {
+    height: 300px;
+    margin: 0 auto;
+    background-color: #000000;
+    opacity: 0.6;
+    transition: all 0.6s ease;
+    position: relative;
+    top: 300px;
+  }
+
+.drawer h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.drawer p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#machine-learning {
+    background-image: url(./assets/machine_learning.jpg);
+}
+
+#data-analytics {
+    background-image: url(./assets/data_analytics.jpg);
+}
+
+#back-end {
+    background-image: url(./assets/back_end.jpg);
+}
+
+#front-end {
+    background-image: url(./assets/front_end.jpg);
 }
