@@ -128,10 +128,22 @@ p {
     height: 200%;
 }
 
+#about-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+#about-content img {
+    margin-right: 50px;
+    width: 300px;
+    border-radius: 150px;
+}
+
 #skills {
     --skew-angle: -5deg;
     --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
 
+    padding: 0;
     position: relative;
     isolation: isolate;
     min-height: 100vh;
@@ -193,8 +205,7 @@ p {
 }
 
 #testimonials {
-    --skew-angle: -5deg;
-    --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
+    --background: #222222;
 
     position: relative;
     isolation: isolate;
@@ -215,7 +226,8 @@ p {
 }
 
 #contact {
-    --background: #222222;
+    --skew-angle: -5deg;
+    --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
 
     position: relative;
     isolation: isolate;
@@ -285,8 +297,10 @@ p {
 
 .skills-wrapper h2 {
     display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+    justify-content: flex-start;
+    transform: translateY(-80%);
+    font-size: 128px;
+    color: #ff0062;
 }
 
 .skills-grid {
@@ -316,13 +330,13 @@ p {
     transition: all 1s;
 }
 
-/* .left {
+.left {
     transform: translateX(-30%);
 }
 
 .right {
     transform: translateX(30%);
-} */
+}
 
 .show {
     opacity: 1;
