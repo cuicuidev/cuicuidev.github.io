@@ -128,10 +128,22 @@ p {
     height: 200%;
 }
 
+#about-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+#about-content img {
+    margin-right: 50px;
+    width: 300px;
+    border-radius: 150px;
+}
+
 #skills {
     --skew-angle: -5deg;
     --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
 
+    padding: 0;
     position: relative;
     isolation: isolate;
     min-height: 100vh;
@@ -150,7 +162,7 @@ p {
     height: 200%;
 }
 
-#data {
+#portfolio {
     --background: #222222;
 
     position: relative;
@@ -158,28 +170,11 @@ p {
     min-height: 100vh;
 }
 
-#data::after {
-    content: '';
-    background: var(--background);
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    transform: skewY(var(--skew-angle));
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200%;
+#portfolio h2{
+    font-size: 64px;
 }
 
-#software {
-    --background: #202020;
-
-    position: relative;
-    isolation: isolate;
-    min-height: 60vh;
-}
-
-#software::after {
+#portfolio::after {
     content: '';
     background: var(--background);
     position: absolute;
@@ -193,8 +188,7 @@ p {
 }
 
 #testimonials {
-    --skew-angle: -5deg;
-    --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
+    --background: #202020;
 
     position: relative;
     isolation: isolate;
@@ -215,7 +209,7 @@ p {
 }
 
 #contact {
-    --background: #222222;
+    --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
 
     position: relative;
     isolation: isolate;
@@ -232,14 +226,17 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 200%;
+    height: 100%;
 }
 
 #footer {
     --background: #202020;
-
     position: relative;
     isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Align content to the bottom of the footer */
+    align-items: center; /* Center horizontally within the footer */
 }
 
 #footer::after {
@@ -252,7 +249,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 250%;
+    height: 100%;
 }
 
 /*UTIL =================================================================================================*/
@@ -285,8 +282,10 @@ p {
 
 .skills-wrapper h2 {
     display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+    justify-content: flex-start;
+    transform: translateY(-80%);
+    font-size: 128px;
+    color: #ff0062;
 }
 
 .skills-grid {
@@ -316,13 +315,13 @@ p {
     transition: all 1s;
 }
 
-/* .left {
+.left {
     transform: translateX(-30%);
 }
 
 .right {
     transform: translateX(30%);
-} */
+}
 
 .show {
     opacity: 1;
@@ -523,7 +522,7 @@ p {
     grid-auto-rows: minmax(200px, auto);
 }
 
-/*DATA ARTICLES =================================================================================================*/
+/*PORTFOLIO ARTICLES =================================================================================================*/
 
 #car-make-classification {
     background-image: url(./assets/car_make_classification.png);
@@ -536,8 +535,6 @@ p {
 #car-price-regression {
     background-image: url(./assets/car_price_regression.jpg);
 }
-
-/*SOFTWARE ARTICLES =================================================================================================*/
 
 #fitness-app-backend {
     background-image: url(./assets/fitness_app_backend.webp);
