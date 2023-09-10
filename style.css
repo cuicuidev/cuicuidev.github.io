@@ -522,6 +522,11 @@ p {
     grid-auto-rows: minmax(200px, auto);
 }
 
+.portfolio-grid a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /*PORTFOLIO ARTICLES =================================================================================================*/
 
 #car-make-classification {
