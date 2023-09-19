@@ -11,12 +11,13 @@
 html {
     color-scheme: dark;
     background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
+    scroll-behavior: smooth;
 }
 
 body {
     overflow-x: hidden;
     font-family:'Roboto', sans-serif;
-    background: linear-gradient(-5deg, #222222 90.5%, #44444400 90.5%);
+    background: linear-gradient(-5deg, #222222 90.5%, #44444400 90.53%);
     color: #DDDDDD;
 }
 
@@ -41,6 +42,14 @@ h2 {
 
 p {
     font-size: 20px;
+}
+
+hr {
+    background-color: #ff0062;
+    height: 2px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 /*ACCENTS =================================================================================================*/
@@ -92,7 +101,7 @@ p {
 }
 
 .landing h1 {
-    font-size: 128px;
+    font-size: 168px;
 }
 
 .landing-inline h1{
@@ -105,6 +114,18 @@ p {
     margin-bottom: 20px;
 }
 
+#greeting {
+    transition-delay: 0.5s;
+}
+
+#name {
+    transition-delay: 1.5s;
+}
+
+#career {
+    transition-delay: 3s;
+}
+
 /*BACKGROUND COMPONENTS =================================================================================================*/
 
 #about {
@@ -112,7 +133,7 @@ p {
 
     position: relative;
     isolation: isolate;
-    min-height: 100vh;
+    margin-bottom: 20vh;
 }
 
 #about::after {
@@ -136,7 +157,10 @@ p {
 #about-content img {
     margin-right: 50px;
     width: 300px;
-    border-radius: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
 }
 
 #skills {
@@ -146,7 +170,7 @@ p {
     padding: 0;
     position: relative;
     isolation: isolate;
-    min-height: 100vh;
+    margin-bottom: 20vh;
 }
 
 #skills::after {
@@ -213,7 +237,6 @@ p {
 
     position: relative;
     isolation: isolate;
-    min-height: 60vh;
 }
 
 #contact::after {
@@ -274,23 +297,24 @@ p {
 }
 
 .skills-wrapper {
-    max-width: 100rem;
+    max-width: 70rem;
     margin-left: auto;
     margin-right: auto;
     padding-inline: 1rem;
 }
 
-.skills-wrapper h2 {
+#my-skills {
     display: flex;
     justify-content: flex-start;
     transform: translateY(-80%);
+    margin-left: 3rem;
     font-size: 128px;
     color: #ff0062;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(200px, auto);
 }
@@ -334,13 +358,6 @@ p {
     transition-delay: 1s;
 }
 
-#subtitle-dev {
-    transition-delay: 1s;
-}
-
-#subtitle-psy {
-    transition-delay: 3s;
-}
 
 /*HOVER ANIMATIONS =================================================================================================*/
 
@@ -455,6 +472,11 @@ p {
 
 /*MAIN ARTICLE DRAWER =================================================================================================*/
 
+.main-article a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .main-article-drawer-container {
     margin: 0 auto;
     overflow: hidden;
@@ -498,6 +520,7 @@ p {
   }
 
 .main-article-drawer h3 {
+    font-size: 64px;
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -505,7 +528,7 @@ p {
 }
 
 .main-article-drawer p {
-    font-size: 16px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -547,4 +570,57 @@ p {
 
 #personal-portfolio {
     background-image: url(./assets/personal_portfolio.png);
+}
+
+/*TESTIMONIALS =================================================================================================*/
+
+.testimonial-body {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Adjust the column sizes as needed */
+    align-items: start;
+    border-bottom-color: #ff0062;
+    border-bottom-style: solid;
+    border-top: #ff0062;
+    border-top-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.image-container{
+    padding: 10%;
+}
+
+.image-container img {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.content-container h3 {
+    font-size: 32px;
+    margin-top: 40px; /* Remove any default margin for h3 */
+    margin-bottom: 20px;
+}
+
+.content-container p {
+    margin-top: 0; /* Remove any default margin for p */
+    font-size: 18px;
+}
+
+
+
+.contact-container-body {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container-body img {
+    width: 120px;
+    margin: 0 10vw;
+    object-fit: contain;
+}
+
+.contact-container-body img:hover {
+    filter: drop-shadow(2px 0 1px #ff0062) drop-shadow(0 2px 1px #ff0062) drop-shadow(-2px 0 1px #ff0062) drop-shadow(0 -2px 1px #ff0062);
 }

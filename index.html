@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script defer src="/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
             <ul>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#skills">My skills</a></li>
-                <li><a href="#data">My work</a></li>
+                <li><a href="#portfolio">My work</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Get in touch</a></li>
             </ul>
@@ -22,36 +23,34 @@
     </nav>
 
     <header class="landing">
-        <h1>HI,</h1>
-        <div class="landing-inline"><h1>I'M </h1>   <h1 class="primary-accent">DMITRY</h1>   <h1>,</h1></div>
-        <h1>DATA SCIENTIST</h1>
-        <p class="hidden right" id="subtitle-dev">...also Web and Mobile developer</p>
-        <p class="hidden left" id="subtitle-psy">...oh, and a psychology graduate too!</p>
+        <h1 class="hidden" id="greeting">HI,</h1>
+        <div class="landing-inline hidden right" id="name"><h1>I'M </h1>   <h1 class="primary-accent">DMITRY</h1>   <h1>,</h1></div>
+        <h1 class="hidden left" id="career">DATA SCIENTIST</h1>
     </header>
 
     <main>
         <section id="about">
             <div class="wrapper">
-                <h2 class="hidden right">About me</h2>
+                <p><i>"Everything in life is a function, my job is to reverse engineer functions."</i></p>
+                <hr>
                 <div class="hidden section-content" id="about-content">
                     <img src="./assets/my_photo.jpg" alt="my_photo">
                     <p>
-                        As a child I've always been fascinated by computers and technology. In my early teenage years I was first introduced to programming when trying to 
-                        figure out how videogames are made. Since then, I've been learning new technologies all my life until today.<br><br>
-                        My biggest commitment to programming happened in early 2022, when I finally discovered my passion, data science. I began reinforcing my statistics fundamentals, dedicated myself completely to learning the 
-                        ins and outs of Python, and then enrolled in a Data Science bootcamp at Hackaboss. Over 6 months I've been investing as much as 40 hours each week learning everything that was thrown at 
-                        me during the bootcamp. Also I tackled some other areas of development in Python, such as back-end with Django and game-dev with PyGame. Also, I've spent some time complementing my back-end 
-                        learning with front-end development using vanilla js, html and css, as well as mobile cross-platform development with Flutter and Dart.<br><br>
-                        Now that I finally feel ready, I'm seeking my first job opportunity in the IT sector. I'm eager to work in any field I've been studying so far, as well as to broaden my horizons and aquiere expertise in new technologies. 
-                        As a mostly self-taught developer, I believe I posses the skillset necessary to achieve anything I set myself up to.
+                        I am a psychology graduate currently changing my career trajectory towards data science. During my college studies I had a few of my first 
+                        experiences dealing with data analytics, and it was what I enjoyed the most during that time. Now, as of the last two years, I've been building a solid foundation in 
+                        data science. The more I learned, the more I liked what I was doing, so much so that I started dipping my toes deeper into programming and took a liking for software development as well. <br><br>
+                        A few months ago, I enrolled in a data science bootcamp by Hackaboss that I've recently finished. There, I could further reinforce my foundations and get experience working on 
+                        bigger projects that the ones I was accostumed to as a self taught data scientist. <br><br>
+                        As of today, I am a very proficient in deep learning, machine learning, data analysis and visualization. I have a deep understanding of many of the programming principles and software design.
+                        And last, but not least, I am very passionate about working with data, as I believe it is the most essential resource in any business.
                     </p>
                 </div>
             </div>
         </section>
 
         <section id="skills">
+            <h2 class="hidden" id="my-skills">My Skills</h2>
             <div class="skills-wrapper">
-                <h2 class="hidden">My Skills</h2>
                 <div class="skills-grid">
                     <article>
                         <a href="#portfolio">
@@ -69,8 +68,6 @@
                         </a>
                     </article>
 
-                    <article></article>
-
                     <article>
                         <a href="#portfolio">
                             <div class="drawer-container" id="data-analytics">
@@ -86,8 +83,6 @@
                             </div>
                         </a>
                     </article>
-                    <article></article>
-                    <article></article>
                     <article>
                         <a href="#portfolio">
                             <div class="drawer-container" id="back-end">
@@ -103,7 +98,6 @@
                             </div>
                         </a>
                     </article>
-                    <article></article>
                     <article>
                         <a href="#portfolio">
                             <div class="drawer-container" id="front-end">
@@ -131,22 +125,16 @@
                 <h2 class="hidden">My Work</h2>
                 
                 <div class="main-article">
-                    <div class="main-article-drawer-container" id="fitness-app-backend">
-                        <div class="main-article-drawer">
-                            <h3>My Gym Bro</h3>
-                            <p>
-                                This is an idea I had a while ago. I'm a regular gym goer and I thought it would be convinient to have a mobile app that allowed me to track my progress 
-                                and visualize it. This is exactly that.<br><br>
-                                I am using Django as my back-end, PostgreSQL as my database and Gunicorn along with Nginx as my server. Everything is 
-                                containerized with Docker. This API allows crud operations on gym tracking entries and JSON Web Token authentication methods with RS512 encription. There is also CI/CD pipelines in place 
-                                that check dev and production environments setup.<br><br>
-                                The front-end is not yet created, although I'm planning on using Flutter for the mobile app and tackle with a new JS framework to showcase the product on the Internet.<br><br>
-                                I've got to admit, this is my most ambitious project so far and not even the back-end is ready for deployment. I fear I might have taken a task too big for one person to acomplish. 
-                                However, I want to take on the challenge and learn from the experience.<br><br>
-                                Even if this is an unfinished project, I want to showcase it here regardless, so that you can always take a sneak peek and see what I am capable of!
-                            </p>
+                    <a href="#portfolio">
+                        <div class="main-article-drawer-container" id="fitness-app-backend">
+                            <div class="main-article-drawer">
+                                <h3>My Gym Bro</h3>
+                                <p>
+                                    A work in progress mobile app that allows its users to keep track of their gym activity and returns useful insights, progress forecasting and AI powered, personalized advice.
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="portfolio-grid">
 
@@ -164,36 +152,42 @@
                     </article>
 
                     <article>
-                        <div class="drawer-container" id="igdb-etl">
-                            <div class="drawer">
-                                <h3>Twitch's IGDB ETL Pipeline</h3>
-                                <p>
-                                    I love videogames. I also love programming. And for that, I've accessed the Internet Games Database and collected useful insights for game developers.
-                                </p>
+                        <a href="#portfolio">
+                            <div class="drawer-container" id="igdb-etl">
+                                <div class="drawer">
+                                    <h3>Twitch's IGDB ETL Pipeline</h3>
+                                    <p>
+                                        I love videogames. I also love programming. And for that, I've accessed the Internet Games Database and collected useful insights for game developers.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </article>
                     
                     <article>
-                        <div class="drawer-container" id="car-price-regression">
-                            <div class="drawer">
-                                <h3>Car Price Regression</h3>
-                                <p>
-                                    Not so long ago I was looking to buy a car, so I trained a Random Forest Regressor that would give me a fair price with a 0.9 r squared score.
-                                </p>
+                        <a href="#portfolio">
+                            <div class="drawer-container" id="car-price-regression">
+                                <div class="drawer">
+                                    <h3>Car Price Regression</h3>
+                                    <p>
+                                        Not so long ago I was looking to buy a car, so I trained a Random Forest Regressor that would give me a fair price with a 0.9 r squared score.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </article>
 
                     <article>
-                        <div class="drawer-container" id="personal-portfolio">
-                            <div class="drawer">
-                                <h3>Personal Portfolio</h3>
-                                <p>
-                                    Recursion, isn't it funny?
-                                </p>
+                        <a href="#portfolio">
+                            <div class="drawer-container" id="personal-portfolio">
+                                <div class="drawer">
+                                    <h3>Personal Portfolio</h3>
+                                    <p>
+                                        Recursion, isn't it funny?
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </article>
                 </div>
 
@@ -203,20 +197,33 @@
         <section id="testimonials">
             <div class="wrapper">
                 <div class="hidden">
-                    <article>
-                        <h3></h3>
-                        <p></p>
-                    </article>
-                    <article>
-                        <h3></h3>
-                        <p></p>
-                    </article>
+                    <div class="testimonial-body">
+                        <div class="image-container">
+                            <img src="assets/maria_eduarda.jpg" alt="testimonial-edu">
+                        </div>
+                        <div class="content-container">
+                            <h3>María Eduarda Almeida Loiola</h3>
+                            <p>I have had the opportunity to work on personal projects with Dmitry and witness his growth as a technology professional up close. He is a responsible person who is deeply committed to what he does, constantly seeking to learn and improve. He doesn't settle for the minimum and always strives to acquire a wealth of knowledge and experience in the process. He will also go out of his way to help anyone in need and convey his passion for what he does. If one word can define him, it's ambition, and that's why I believe that anyone who can have him on their team will benefit greatly, both from his technological and professional skills and his outstanding qualities as a person.</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
 
         <section id="contact">
             <div class="wrapper">
+                <div class="contact-container">
+                    <h2>Contact me!</h2>
+                    <div class="contact-container-body">
+                        <a href="https://github.com/cuicuidev" target="_blank">
+                            <img src="assets/github-mark-white.png" alt="github-mark-white">
+                        </a>
+                        <a href="https://www.linkedin.com/in/cuicuidev" target="_blank">
+                            <img src="assets/In-White-128@2x.png" alt="In-White-128">
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
 
