@@ -368,6 +368,7 @@ hr {
     background-position: center;
     position: relative;
     border-radius: 10px;
+    filter: drop-shadow(0px 10px 10px #00000099)
 }
 
 .drawer-container:hover .drawer {
@@ -472,6 +473,10 @@ hr {
 
 /*MAIN ARTICLE DRAWER =================================================================================================*/
 
+.main-article {
+    filter: drop-shadow(0px 10px 10px #00000099)
+}
+
 .main-article a {
     text-decoration: none;
     color: inherit;
@@ -543,6 +548,7 @@ hr {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(200px, auto);
+    filter: drop-shadow(0px 10px 10px #00000099)
 }
 
 .portfolio-grid a {
@@ -622,5 +628,25 @@ hr {
 }
 
 .contact-container-body img:hover {
-    filter: drop-shadow(2px 0 1px #ff0062) drop-shadow(0 2px 1px #ff0062) drop-shadow(-2px 0 1px #ff0062) drop-shadow(0 -2px 1px #ff0062);
+    filter: drop-shadow(1px 0 1px #ff0062) drop-shadow(0 1px 1px #ff0062) drop-shadow(-1px 0 1px #ff0062) drop-shadow(0 -1px 1px #ff0062);
+}
+
+#back-to-top{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+#back-to-top polygon:hover {
+    fill: #ff0062;
+}
+
+#swipe-left {
+
+}
+
+#swipe-right {
+
 }
