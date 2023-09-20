@@ -593,7 +593,9 @@ hr {
 }
 
 .image-container{
-    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 }
 
 .image-container img {
@@ -601,17 +603,25 @@ hr {
     border-style: solid;
     border-width: 2px;
     border-color: #000000;
+    margin: 10% 10% 0% 10%;
+    width: 70%;
+}
+
+.image-container h4{
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .content-container h3 {
     font-size: 32px;
-    margin-top: 40px; /* Remove any default margin for h3 */
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
 .content-container p {
-    margin-top: 0; /* Remove any default margin for p */
+    margin-top: 0;
     font-size: 18px;
+    padding-right: 5%;
 }
 
 
@@ -643,10 +653,39 @@ hr {
     fill: #ff0062;
 }
 
-#swipe-left {
 
+
+#testimonials-wrapper {
+    display: flex;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: 1rem;
 }
 
-#swipe-right {
+.swipe {
+    display: flex;
+    align-items: center;
+}
 
+#swipe-left{
+    transform: rotate(270deg);
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+#swipe-left polygon:hover {
+    fill: #ff0062;
+}
+
+#swipe-right{
+    transform: rotate(90deg);
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+#swipe-right polygon:hover {
+    fill: #ff0062;
 }
