@@ -1,12 +1,14 @@
-#about {
-    --background: #222222;
+#skills {
+    --skew-angle: -5deg;
+    --background: linear-gradient(45deg, #0d5f72, #5e1c80, #751935);
 
+    padding: 0;
     position: relative;
     isolation: isolate;
     margin-bottom: 20vh;
 }
 
-#about::after {
+#skills::after {
     content: '';
     background: var(--background);
     position: absolute;
@@ -17,17 +19,4 @@
     left: 0;
     width: 100%;
     height: 200%;
-}
-
-#about-content {
-    display: grid;
-}
-
-#about-content img {
-    width: 100%;
-
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #000000;
 }

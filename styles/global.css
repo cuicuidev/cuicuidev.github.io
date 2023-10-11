@@ -32,7 +32,7 @@ html {
 body {
     overflow-x: hidden;
     font-family:'Roboto', sans-serif;
-    background: linear-gradient(-5deg, #222222 90.5%, #44444400 90.53%);
+    background: linear-gradient(-5deg, #222222 95%, #44444400 95%);
     color: #DDDDDD;
 }
 
@@ -40,4 +40,11 @@ img {
     height: auto;
     max-width: 100%;
     object-fit: cover;
+}
+
+/*MISC =================================================================================================*/
+
+.avatar {
+    width: 100%;
+    padding: 5%;
 }

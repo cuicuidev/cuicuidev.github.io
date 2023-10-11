@@ -1,2 +1,14 @@
 @media only screen and (min-width: 600px) {
+
+    body {
+        background: linear-gradient(-5deg, #222222 90.5%, #44444400 90.53%);
+    }
+
+    .landing{
+        min-height: 100vh;
+    }
+    
+    .landing h1 {
+        font-size: 168px;
+    }
 }
