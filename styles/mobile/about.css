@@ -1,0 +1,34 @@
+#about {
+    --background: #202020;
+
+    position: relative;
+    isolation: isolate;
+    margin-bottom: 20vh;
+}
+
+#about::after {
+    content: '';
+    background: var(--background);
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(var(--skew-angle));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+}
+
+#about-content {
+    display: flex;
+    align-items: center;
+}
+
+#about-content img {
+    margin-right: 50px;
+    width: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}

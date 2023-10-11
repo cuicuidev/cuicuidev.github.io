@@ -1,0 +1,43 @@
+/*GLOBAL =================================================================================================*/
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*ACCENTS =================================================================================================*/
+
+.primary-accent {
+    color: #ff0062;
+}
+
+.secondary-accent {
+    color: #ff5e00;
+}
+
+.tertiary-accent {
+    color: #00c3ff;
+}
+
+/*TAGS =================================================================================================*/
+
+html {
+    color-scheme: dark;
+    background: linear-gradient(75deg, #0d5f72, #5e1c80, #751935);
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-family:'Roboto', sans-serif;
+    background: linear-gradient(-5deg, #222222 90.5%, #44444400 90.53%);
+    color: #DDDDDD;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}

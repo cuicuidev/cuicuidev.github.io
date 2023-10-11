@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     /*GLOBAL =================================================================================================*/
 
     *,
@@ -103,6 +103,28 @@
 
     .landing h1 {
         font-size: 168px;
+    }
+
+    .landing-inline h1{
+        display: inline;
+    }
+
+    .landing p {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #greeting {
+        transition-delay: 0.5s;
+    }
+
+    #name {
+        transition-delay: 1.5s;
+    }
+
+    #career {
+        transition-delay: 3s;
     }
 
     /*BACKGROUND COMPONENTS =================================================================================================*/
