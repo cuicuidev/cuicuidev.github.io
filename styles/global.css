@@ -48,3 +48,40 @@ img {
     width: 100%;
     padding: 5%;
 }
+
+/*SKILLS CONST =================================================================================================*/
+
+#machine-learning {
+    background-image: url(../assets/machine_learning.jpg);
+}
+
+#data-analytics {
+    background-image: url(../assets/data_analytics.jpg);
+}
+
+#back-end {
+    background-image: url(../assets/back_end.jpg);
+}
+
+#front-end {
+    background-image: url(../assets/front_end.jpg);
+}
+
+#machine-learning-skill-level {
+    width: 90%;
+}
+
+#data-analytics-skill-level {
+    width: 75%;
+}
+
+#front-end-skill-level {
+    width: 50%;
+}
+
+#back-end-skill-level {
+    width: 65%;
+}
+
+
+/*PORTFOLIO CONST =================================================================================================*/
