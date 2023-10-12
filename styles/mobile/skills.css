@@ -5,7 +5,7 @@
     padding: 0;
     position: relative;
     isolation: isolate;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 #skills::after {
@@ -23,13 +23,6 @@
 
 /*GRID =================================================================================================*/
 
-.skills-wrapper {
-    max-width: 70rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-inline: 1rem;
-}
-
 #my-skills {
     display: flex;
     justify-content: center;
@@ -41,7 +34,7 @@
 .skills-grid {
     display: grid;
     gap: 1rem;
-    grid-auto-rows: minmax(150px, auto);
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
 }
 
 .skills-grid a {
@@ -58,11 +51,12 @@
     background-position: center;
     position: relative;
     border-radius: 10px;
-    filter: drop-shadow(0px 10px 10px #00000099)
+    filter: drop-shadow(0px 10px 10px #00000099);
+    height: 100%;
 }
 
 .drawer {
-    height: 200px;
+    height: 100%;
     margin: 0 auto;
     background-color: #000000;
     opacity: 0.6;
@@ -74,7 +68,7 @@
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .drawer p {
@@ -86,21 +80,21 @@
     margin-right: 20px;
 }
 
-    /*PROGRESS BAR =================================================================================================*/
+/*PROGRESS BAR =================================================================================================*/
 
-    .skill-bar {
-        width: auto;
-        height: 10px;
-        background-color: #ccc;
-        margin: 20px;
-        border-radius: 5px;
-    }
+.skill-bar {
+    width: auto;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
 
-    .skill-level {
-        height: 100%;
-        background-color: #ff0062;
-        text-align: center;
-        line-height: 20px;
-        color: #fff;
-        border-radius: inherit;
-    }
+.skill-level {
+    height: 100%;
+    background-color: #ff0062;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    border-radius: inherit;
+}

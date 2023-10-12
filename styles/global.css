@@ -85,3 +85,23 @@ img {
 
 
 /*PORTFOLIO CONST =================================================================================================*/
+
+#car-make-classification {
+    background-image: url(../assets/car_make_classification.png);
+}
+
+#igdb-etl {
+    background-image: url(../assets/igdb_etl.avif);
+}
+
+#car-price-regression {
+    background-image: url(../assets/car_price_regression.jpg);
+}
+
+#fitness-app-backend {
+    background-image: url(../assets/fitness_app_backend.webp);
+}
+
+#personal-portfolio {
+    background-image: url(../assets/personal_portfolio.png);
+}
