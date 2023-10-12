@@ -1,0 +1,101 @@
+#testimonials {
+    --background: #202020;
+
+    position: relative;
+    isolation: isolate;
+    min-height: 60vh;
+}
+
+#testimonials::after {
+    content: '';
+    background: var(--background);
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(var(--skew-angle));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+}
+
+/*TESTIMONIALS =================================================================================================*/
+
+.testimonial-body {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Adjust the column sizes as needed */
+    align-items: start;
+    border-bottom-color: #ff0062;
+    border-bottom-style: solid;
+    border-top: #ff0062;
+    border-top-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.image-container img {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    margin: 10% 10% 0% 10%;
+    width: 70%;
+}
+
+.image-container h4{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.content-container h3 {
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.content-container p {
+    margin-top: 0;
+    font-size: 18px;
+    padding-right: 5%;
+}
+
+#testimonials-wrapper {
+    display: flex;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: 1rem;
+}
+
+.swipe {
+    display: flex;
+    align-items: center;
+}
+
+#swipe-left{
+    transform: rotate(270deg);
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+#swipe-left polygon:hover {
+    fill: #ff0062;
+}
+
+#swipe-right{
+    transform: rotate(90deg);
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+#swipe-right polygon:hover {
+    fill: #ff0062;
+}
