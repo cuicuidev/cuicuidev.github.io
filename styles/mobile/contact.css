@@ -18,18 +18,26 @@
     height: 100%;
 }
 
+.contact-container {
+    display: grid;
+}
+
 .contact-container h2 {
+    font-size: 40px;
     align-self: center;
     justify-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .contact-container-body {
     display: flex;
     justify-content: center;
+    align-content: space-between;
 }
 
 .contact-container-body img {
     width: 10vw;
-    margin: 0 10vw;
+    margin: 1rem;
     object-fit: contain;
 }

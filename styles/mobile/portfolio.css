@@ -4,12 +4,17 @@
     position: relative;
     isolation: isolate;
     min-height: 100vh;
+    margin-bottom: 5vh;
+
+    display: grid;
 }
 
 #portfolio h2{
     font-size: 40px;
     align-self: center;
     justify-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #portfolio::after {
@@ -31,7 +36,7 @@
     display: grid;
     gap: 1rem;
     grid-auto-rows: minmax(150px, auto);
-    filter: drop-shadow(0px 10px 10px #00000099)
+    filter: drop-shadow(0px 10px 10px #00000099);
 }
 
 .portfolio-grid a {
