@@ -31,3 +31,26 @@
     border-width: 2px;
     border-color: #000000;
 }
+
+
+.wrapper-about {
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: 2rem;
+    display: grid;
+}
+
+#quote {
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+hr {
+    height: 1px;
+    background-color: #ff0062;
+    border: none;
+}
