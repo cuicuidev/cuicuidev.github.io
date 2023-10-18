@@ -6,6 +6,10 @@
     flex-direction: column;
     justify-content: space-around; /* Align content to the bottom of the footer */
     align-items: center; /* Center horizontally within the footer */
+
+    font-size: 10px;
+
+    padding-bottom: 2vh;
 }
 
 #footer::after {
@@ -22,10 +26,14 @@
     max-height: 10%;
 }
 
+#footer p{
+    margin: 3px;
+}
+
 
 #back-to-top{
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     width: 150px;
     display: block;
     margin: auto;
