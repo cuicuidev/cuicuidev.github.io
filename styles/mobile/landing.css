@@ -1,0 +1,10 @@
+.landing{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.landing h1 {
+    padding: 2rem;
+    font-size: 40px;
+}

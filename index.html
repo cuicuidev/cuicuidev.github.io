@@ -4,7 +4,31 @@
 <head>
     <title>Cuicui</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="styles/global.css">
+    
+    <link rel="stylesheet" href="styles/mobile/navbar.css">
+    <link rel="stylesheet" href="styles/mobile/landing.css">
+    <link rel="stylesheet" href="styles/mobile/about.css">
+    <link rel="stylesheet" href="styles/mobile/skills.css">
+    <link rel="stylesheet" href="styles/mobile/portfolio.css">
+    <link rel="stylesheet" href="styles/mobile/testimonials.css">
+    <link rel="stylesheet" href="styles/mobile/contact.css">
+    <link rel="stylesheet" href="styles/mobile/footer.css">
+
+    <link rel="stylesheet" href="styles/mobile/misc.css">
+
+    <link rel="stylesheet" href="styles/web/navbar.css">
+    <link rel="stylesheet" href="styles/web/landing.css">
+    <link rel="stylesheet" href="styles/web/about.css">
+    <link rel="stylesheet" href="styles/web/skills.css">
+    <link rel="stylesheet" href="styles/web/portfolio.css">
+    <link rel="stylesheet" href="styles/web/testimonials.css">
+    <link rel="stylesheet" href="styles/web/contact.css">
+    <link rel="stylesheet" href="styles/web/footer.css">
+
+    <link rel="stylesheet" href="styles/web/misc.css">
+
     <script defer src="/app.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -14,28 +38,28 @@
         <div class="navbar">
             <ul>
                 <li><a href="#about">About me</a></li>
-                <li><a href="#skills">My skills</a></li>
+                <li><a href="#my-skills">My skills</a></li>
                 <li><a href="#portfolio">My work</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
+                <!-- <li><a href="#testimonials">Testimonials</a></li> -->
                 <li><a href="#contact">Get in touch</a></li>
             </ul>
         </div>
     </nav>
 
     <header class="landing">
-        <h1 class="hidden" id="greeting">HI,</h1>
-        <div class="landing-inline hidden right" id="name"><h1>I'M </h1>   <h1 class="primary-accent">DMITRY</h1>   <h1>,</h1></div>
-        <h1 class="hidden left" id="career">DATA SCIENTIST</h1>
+        <h1 class="hidden" id="greeting">HI, <br> I'M <span class="primary-accent">DMITRY</span>, <br> DATA SCIENTIST</h1>
     </header>
 
     <main>
         <section id="about">
-            <div class="wrapper">
-                <p><i>"Everything in life is a function, my job is to reverse engineer functions."</i></p>
+            <div class="wrapper-about">
+                <p id="quote"><i>"Everything in life is a function, my job is to reverse engineer functions."</i></p>
                 <hr>
                 <div class="hidden section-content" id="about-content">
-                    <img src="./assets/my_photo.jpg" alt="my_photo">
-                    <p>
+                    <div class="avatar">
+                        <img src="./assets/my_photo.jpg" alt="my_photo">
+                    </div>
+                    <p class="desktop-only" id="about-me-text">
                         I am a psychology graduate currently changing my career trajectory towards data science. During my college studies I had a few of my first 
                         experiences dealing with data analytics, and it was what I enjoyed the most during that time. Now, as of the last two years, I've been building a solid foundation in 
                         data science. The more I learned, the more I liked what I was doing, so much so that I started dipping my toes deeper into programming and took a liking for software development as well. <br><br>
@@ -50,7 +74,7 @@
 
         <section id="skills">
             <h2 class="hidden" id="my-skills">My Skills</h2>
-            <div class="skills-wrapper">
+            <div class="wrapper">
                 <div class="skills-grid">
                     <article>
                         <a href="#portfolio">
@@ -121,22 +145,20 @@
         </section>
 
         <section id="portfolio">
-            <div class="wrapper">
-                <h2 class="hidden">My Work</h2>
-                
-                <div class="main-article">
-                    <a href="https://car-make-classifier.streamlit.app" target="_blank">
-                        <div class="main-article-drawer-container" id="car-make-classification">
-                            <div class="main-article-drawer">
-                                <h3>Car Make Classification</h3>
-                                <p>
-                                    Leveraging the computing power of GPUs, I've managed to train a deep neural network that can classify a car image and predict it's manufacturer.
-                                </p>
+            <h2 class="hidden">My Work</h2>
+            <div class="wrapper portfolio-grid">
+                    <article>
+                        <a href="https://car-make-classifier.streamlit.app" target="_blank">
+                            <div class="drawer-container" id="car-make-classification">
+                                <div class="drawer">
+                                    <h3>Car Make Classification</h3>
+                                    <p>
+                                        Leveraging the computing power of GPUs, I've managed to train a deep neural network that can classify a car image and predict it's manufacturer.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="portfolio-grid">
+                        </a>
+                    </article>
 
                     <article>
                         <a href="#portfolio">
@@ -193,7 +215,7 @@
             </div>
         </section>
 
-        <section id="testimonials">
+        <!-- <section id="testimonials">
             <div class="wrapper" id="testimonials-wrapper">
                 <div class="swipe">
                     <svg id="swipe-left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 42" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
@@ -220,7 +242,7 @@
                       </svg>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section id="contact">
             <div class="wrapper">
@@ -246,9 +268,9 @@
                 <polygon points="0.119968,-64.866918 1.844348,-64.866918 150.100056,-25.995752 150.100056,-21.586628 0.119968,-42.763213 -149.899944,-21.586628 -149.899944,-25.995752 -1.639123,-64.866918 0.119968,-64.866918" transform="translate(149.899944 64.866918)" fill="#fff" stroke-width="0" stroke-linecap="round"/>
               </svg>
         </a>
-        <p>Designed and built by Dmitry V. Ryzhenkov</p>
-        <p>Location: Roquetas de Mar (Almería, Spain)</p>
-        <p>Copyright © 2023 Dmitry V. Ryzhenkov</p>
+        <p>Designed and built by Dmitry Ryzhenkov</p>
+        <p>Roquetas de Mar (Almería, Spain)</p>
+        <p>Copyright © 2023 Dmitry Ryzhenkov</p>
     </footer>
 
 </body>

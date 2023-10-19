@@ -1,0 +1,12 @@
+.wrapper {
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: 2rem;
+}
+
+.wrapper p {
+    display: grid;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}

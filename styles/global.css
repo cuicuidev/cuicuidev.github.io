@@ -1,0 +1,115 @@
+/*GLOBAL =================================================================================================*/
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*ACCENTS =================================================================================================*/
+
+.primary-accent {
+    color: #ff0062;
+}
+
+.secondary-accent {
+    color: #ff5e00;
+}
+
+.tertiary-accent {
+    color: #00c3ff;
+}
+
+/*TAGS =================================================================================================*/
+
+html {
+    color-scheme: dark;
+    background: linear-gradient(75deg, #0d5f72, #5e1c80, #751935);
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-family:'Roboto', sans-serif;
+    background: linear-gradient(-5deg, #222222 94.97%, #44444400 95%);
+    color: #DDDDDD;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/*MISC =================================================================================================*/
+
+.avatar {
+    width: 100%;
+    padding: 5%;
+}
+
+/*SKILLS CONST =================================================================================================*/
+
+#machine-learning {
+    background-image: url(../assets/machine_learning.jpg);
+}
+
+#data-analytics {
+    background-image: url(../assets/data_analytics.jpg);
+}
+
+#back-end {
+    background-image: url(../assets/back_end.jpg);
+}
+
+#front-end {
+    background-image: url(../assets/front_end.jpg);
+}
+
+#machine-learning-skill-level {
+    width: 90%;
+}
+
+#data-analytics-skill-level {
+    width: 75%;
+}
+
+#front-end-skill-level {
+    width: 50%;
+}
+
+#back-end-skill-level {
+    width: 65%;
+}
+
+
+/*PORTFOLIO CONST =================================================================================================*/
+
+#car-make-classification {
+    background-image: url(../assets/car_make_classification.png);
+}
+
+#igdb-etl {
+    background-image: url(../assets/igdb_etl.avif);
+}
+
+#car-price-regression {
+    background-image: url(../assets/car_price_regression.jpg);
+}
+
+#fitness-app-backend {
+    background-image: url(../assets/fitness_app_backend.webp);
+}
+
+#personal-portfolio {
+    background-image: url(../assets/personal_portfolio.png);
+}
+
+/* HIDE ON MOBILE */
+
+@media only screen and (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+}
