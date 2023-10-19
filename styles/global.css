@@ -32,7 +32,7 @@ html {
 body {
     overflow-x: hidden;
     font-family:'Roboto', sans-serif;
-    background: linear-gradient(-5deg, #222222 95%, #44444400 95%);
+    background: linear-gradient(-5deg, #222222 94.97%, #44444400 95%);
     color: #DDDDDD;
 }
 
@@ -104,4 +104,12 @@ img {
 
 #personal-portfolio {
     background-image: url(../assets/personal_portfolio.png);
+}
+
+/* HIDE ON MOBILE */
+
+@media only screen and (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
 }

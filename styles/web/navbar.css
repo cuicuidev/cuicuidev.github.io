@@ -1,25 +1,5 @@
-@media only screen and (min-width: 600px) {
-    .navbar ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        padding: 10px;
-        margin: 0px;
-    }
-
+@media only screen and (min-width: 768px) {
     .navbar a {
-        text-decoration: none;
         font-size: 20px;
-        color: currentColor;
-        padding: 10px;
-        border-bottom: solid;
-        border-bottom-color: #ff006200;
-        border-bottom-width: 2px;
-    }
-
-    .navbar a:hover {
-        color: #ff0062;
-        border-bottom-color: #ff0062;
     }
 }

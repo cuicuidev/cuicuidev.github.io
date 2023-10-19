@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) {
+
+    #footer {
+        --background: #202020;
+        position: relative;
+        isolation: isolate;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    
+        font-size: 10px;
+    
+
+        min-height: 30vh;
+    }
+
+    #footer > :first-child{
+        grid-column: span 3;
+    }
+
+    #back-to-top polygon:hover {
+        fill: #ff0062;
+    }
+}
