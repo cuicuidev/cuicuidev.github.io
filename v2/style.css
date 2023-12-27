@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+#h1-name {
+	color: #ff0062;
+}
+
+body {
+	background-color: #1a1a1a;
+	color: aliceblue;
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav-container {
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	padding: 1rem;
+}
+
+.nav-container a {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-list li {
+	margin: 0 1rem;
+}
+
+.nav-list li a {
+	font-size: 1.2rem;
+}
+
+.nav-list li a:hover {
+	color: #ff0062;
+}
+
+/* ===================================== */
+
+#landing {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#landing h1 {
+	font-size: 4rem;
+}
+
+/* ===================================== */
+
+#about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#about h2 {
+	font-size: 3rem;
+}
+
+/* ===================================== */
+
+#portfolio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#portfolio h2 {
+	font-size: 3rem;
+}
+
+/* ===================================== */
+
+#testimonials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#testimonials h2 {
+	font-size: 3rem;
+}
+
+/* ===================================== */
+
+#contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#contact h2 {
+	font-size: 3rem;
+}
+
+/* ===================================== */
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+
+footer h2 {
+	font-size: 1.5rem;
+}
