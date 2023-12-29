@@ -69,11 +69,19 @@ body {
 
 /* ===================================== */
 
+.h2-container {
+	padding: 1rem;
+}
+
+
+/* ===================================== */
+
 #about {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	height: 100vh;
+	background-color: #222222;
 }
 
 #about h2 {
@@ -85,7 +93,7 @@ body {
 #portfolio {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	height: 100vh;
 }
 
@@ -98,8 +106,9 @@ body {
 #testimonials {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	height: 100vh;
+	align-items: start;
+	height: 50vh;
+	background-color: #222222;
 }
 
 #testimonials h2 {
@@ -111,8 +120,9 @@ body {
 #contact {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	height: 100vh;
+	align-items: start;
+	height: 70vh;
+	background-color: #222222;
 }
 
 #contact h2 {
@@ -122,12 +132,60 @@ body {
 /* ===================================== */
 
 footer {
+	height: 10vh;
 	display: flex;
+
+	flex-direction: column;
+
 	justify-content: center;
 	align-items: center;
-	height: 10vh;
+
 }
 
 footer h2 {
 	font-size: 1.5rem;
+}
+
+.footer-logo a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.footer-container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.footer-menu ul {
+	display: flex;
+	list-style: none;
+}
+
+.footer-menu a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.footer-menu li {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.footer-social ul {
+	list-style: none;
+}
+
+.footer-social a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+#copyright {
+	padding-bottom: 1rem;
 }
