@@ -120,11 +120,12 @@ nav {
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	height: 100vh;
+	min-height: 100vh;
 	background-color: #222222;
 
 	padding: 10vw;
 	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
 #about h2 {
@@ -139,16 +140,16 @@ nav {
 }
 
 .about-avatar {
-	width: 20rem;
-	min-width: 20rem;
-	height: 25rem;
+	width: 25rem;
+	min-width: 25rem;
+	height: 35rem;
 	border-radius: 15%;
 
 	border: 1px solid #ff0062;
 }
 
 .about-text {
-	padding-left: 2rem;
+	padding-left: 4rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -156,22 +157,38 @@ nav {
 	font-size: 1.5rem;
 }
 
+#about-main-text {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
 .about-info {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
+	align-items: start;
+	width: 100%;
+}
+
+.about-main-info {
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 }
 
 .about-tabs {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: start;
+	align-items: start;
+	width: 100%;
 }
 
 .about-tabs p {
 	padding: 1rem;
+	padding-left: 0;
+	padding-right: 3rem;
+	margin-bottom: 2rem;
+	font-size: 2.5rem;
 }
 
 .tab-link {
@@ -185,20 +202,54 @@ nav {
 }
 
 .active-link {
-	color: #ff0062;
+	transition: all 0.3s ease-in-out;
 }
 
 .active-link:hover {
-	scale: 1.0;
 	cursor: default;
+	scale: 1;
+}
+
+.tab-link.active-link::after {
+	content: '';
+	display: block;
+	width: 33%;
+	height: 0.3rem;
+	position: relative;
+	bottom: -10px;
+	background-color: #ff0062;
 }
 
 .tab-contents {
 	display: none;
 }
 
+.tab-contents h3 {
+	font-size: 1.5rem;
+	font-weight: normal;
+	padding-bottom: 1rem;
+	color: #ff0062;
+}
+
+.tab-contents p {
+	padding: 0.3rem;
+	padding-left: 0;
+	font-size: 1.2rem;
+}
+
 .active-tab {
-	display: block;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.date i {
+	font-size: 0.8rem;
+}
+
+.experience-item h3 {
+	padding-bottom: 0rem;
+	margin-bottom: 0rem;
 }
 
 .about-overview-container {
@@ -207,6 +258,7 @@ nav {
 	align-items: center;
 	width: 100%;
 	align-self: end;
+	justify-self: end;
 }
 
 .about-overview-container p {

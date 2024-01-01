@@ -39,7 +39,8 @@
 					<img src="avatar.jpg" alt="avatar">
 				</div>
 				<div class="about-text">
-					<p>
+					<h2>SOBRE MI</h2>
+					<p id="about-main-text">
 						Hola, soy <span class="primary-color">Dmitry</span>, un cientifico de datos con 
 						experiencia en el desarrollo de modelos de aprendizaje automatico y en la creacion
 						de aplicaciones web. Me encanta trabajar con datos y crear modelos que puedan
@@ -48,7 +49,7 @@
 						utilizando arquitecturas de microservicios.
 					</p>
 					<div class="about-info">
-						<div>
+						<div class="about-main-info">
 							<div class="about-tabs">
 								<p class="tab-link active-link" onclick="selectTab('techstack')">Tecnologias</p>
 								<p class="tab-link" onclick="selectTab('skills')">Habilidades</p>
@@ -56,27 +57,114 @@
 								<p class="tab-link" onclick="selectTab('experience')">Experiencia</p>
 							</div>
 							<div class="tab-contents active-tab" id="techstack">
-								<p>Python</p>
-								<p>Dart</p>
-								<p>Bash</p>
-								<p>Rust</p>
+								<div class="techstack-item">
+									<div id="techstack-item-languages">
+										<h3>Lenguajes</h3>
+										<p>Python</p>
+										<p>Rust</p>
+										<p>Dart</p>
+										<p>Bash</p>
+									</div>
+								</div>
+								<div class="techstack-item">
+									<div id="techstack-item-data">
+										<h3>Data</h3>
+										<p>Pandas</p>
+										<p>Matplotlib/Seaborn/Plotly</p>
+										<p>Scikit-learn</p>
+										<p>Tensorflow/Keras</p>
+										<p>BeautifulSoup</p>
+										<p>Selenium</p>
+									</div>
+								</div>
+								<div class="techstack-item">
+									<div id="techstack-item-software">
+										<h3>Software</h3>
+										<p>HTML/CSS</p>
+										<p>FastAPI</p>
+										<p>Django</p>
+										<p>Flutter</p>
+									</div>
+								</div>
+								<div class="techstack-item">
+									<div id="techstack-item-cloud">
+										<h3>DevOps</h3>
+										<p>Docker</p>
+										<p>Git</p>
+										<p>Linux</p>
+										<p>AWS</p>
+									</div>
+								</div>
 							</div>
 							<div class="tab-contents" id="skills">
-								<p>Analisis de datos</p>
-								<p>Visualizacion de datos</p>
-								<p>Machine Learning</p>
-								<p>Deep Learning</p>
-								<p>Desarrollo web</p>
-								<p>Desarrollo de software</p>
-								<p>Web Scraping</p>
-								<p>Automatizacion</p>
+								<div class="skills-item">
+									<div id="skills-item-soft">
+										<h3>Soft</h3>
+										<p>Trabajo en equipo</p>
+										<p>Comunicacion</p>
+										<p>Resolucion de problemas</p>
+										<p>Autodidacta</p>
+										<p>Adaptabilidad</p>
+										<p>Responsabilidad</p>
+									</div>
+								</div>
+								<div class="skills-item">
+									<div id="skills-item-hard">
+										<h3>Hard</h3>
+										<p>Analisis de datos</p>
+										<p>Visualizacion de datos</p>
+										<p>Machine Learning</p>
+										<p>Desarrollo web</p>
+										<p>Desarrollo de software</p>
+										<p>Web Scraping</p>
+										<p>Automatizacion</p>
+									</div>
+								</div>
+								<div class="skills-item">
+									<div id="skills-item-soft">
+										<h3>Idiomas</h3>
+										<p>Espa&ntildeol</p>
+										<p>Ingles</p>
+										<p>Ruso</p>
+									</div>
+								</div>
 							</div>
 							<div class="tab-contents" id="education">
-								<p>Bootcamp de Data Science & IA en HACKABOSS</p>
-								<p>Grado en Psicologia en la Universidad de Almeria</p>
+								<div class="education-item">
+									<div id="education-item-university">
+										<h3>Universidad de Almer&iacutea</h3>
+										<p>Grado en Psicolog&iacutea</p>
+									</div>
+								</div>
+								<div class="education-item">
+									<div id="education-item-bootcamp">
+										<h3>HACKABOSS</h3>
+										<p>Bootcamp de Data Science &amp IA</p>
+									</div>
+								</div>
 							</div>
 							<div class="tab-contents" id="experience">
-								<p>Sector de hosteleria</p>
+								<div class="experience-item">
+									<div id="experience-item-2018">
+										<h3>Camarero</h3>
+										<p class="date"><i>2017-2023</i></p>
+										<p>Sector de hosteleria</p>
+									</div>
+								</div>
+								<div class="experience-item">
+									<div id="experience-item-2019">
+										<h3>Data scientist</h3>
+										<p class="date"><i>2023</i></p>
+										<p>HACKABOSS</p>
+									</div>
+								</div>
+								<div class="experience-item">
+									<div id="experience-item-2020">
+										<h3>Desarrollador de software</h3>
+										<p class="date"><i>2024</i></p>
+										<p>Autonomo</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
