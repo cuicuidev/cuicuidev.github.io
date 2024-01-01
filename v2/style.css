@@ -18,6 +18,16 @@ h2 {
 	color: #ff0062;
 }
 
+.primary-focus {
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+.secondary-focus {
+	font-weight: bold;
+	font-size: 3rem;
+}
+
 body {
 	background-color: #1a1a1a;
 	color: aliceblue;
@@ -107,12 +117,14 @@ nav {
 
 #about {
 	display: flex;
-	justify-content: center;
-	align-items: start;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
 	height: 100vh;
 	background-color: #222222;
 
-	padding: 2rem;
+	padding: 10vw;
+	padding-top: 5rem;
 }
 
 #about h2 {
@@ -123,6 +135,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: start;
+	height: 100%;
 }
 
 .about-avatar {
@@ -140,27 +153,44 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: start;
+	font-size: 1.5rem;
+}
+
+.about-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
 }
 
 .about-tabs {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-	padding: 1rem;
 }
 
 .about-tabs p {
-	text-decoration: none;
-	margin-right: 1rem;
+	padding: 1rem;
 }
 
 .tab-link {
 	color: aliceblue;
+	font-size: 2rem;
+}
+
+.tab-link:hover {
+	scale: 1.1;
+	cursor: pointer;
 }
 
 .active-link {
 	color: #ff0062;
+}
+
+.active-link:hover {
+	scale: 1.0;
+	cursor: default;
 }
 
 .tab-contents {
@@ -171,6 +201,19 @@ nav {
 	display: block;
 }
 
+.about-overview-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	align-self: end;
+}
+
+.about-overview-container p {
+	margin-top: 5rem;
+	padding: 1rem;
+	font-size: 2rem;
+}
 
 /* ===================================== */
 
@@ -178,11 +221,61 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: start;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 #portfolio h2 {
 	font-size: 3rem;
+}
+
+.portfolio-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+	height: 100%;
+	width: 100%;
+}
+
+.portfolio-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #ff0062;
+
+	min-height: 50rem;
+	width: 100%;
+	min-width: 100%;
+}
+
+.portfolio-item-image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	border: 1px solid #ff0062;
+}
+
+.portfolio-item-image {
+	height: 100%;
+	width: 100%;
+}
+
+.portfolio-item-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+
+	border: 1px solid #ff0062;
+}
+
+.portfolio-item-text {
+	padding: 1rem;
+	font-size: 2rem;
 }
 
 /* ===================================== */
