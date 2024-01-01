@@ -5,8 +5,8 @@
 	<title>Dmitry Ryzhenkov</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="desktop.css">
-
-	<link rel="script" href="js/script.js">
+	
+	<script src="script.js"></script>
 </head>
 
 
@@ -33,21 +33,49 @@
 		</div>
 
 		<article id="about">
-			<div class="container">
-				<div class="about-container">
-					<div class="about-text">
-						<p>
-							<span class="primary-color">Hola, soy Dmitry</span>, un cientifico de datos con experiencia en el desarrollo de modelos de aprendizaje automatico y en la creacion de aplicaciones web. Me apasiona la ciencia de datos y la programacion, y me encanta trabajar en proyectos que me permitan aprender y crecer profesionalmente.
-						</p>
-						<p>
-							<span class="primary-color">Mi objetivo</span> es trabajar en un equipo de cientificos de datos y desarrolladores de software para crear aplicaciones web que ayuden a las personas a resolver problemas del mundo real.
-						</p>
-						<p>
-							<span class="primary-color">En mi tiempo libre</span> me gusta leer, escuchar musica, ver peliculas y series, y jugar videojuegos.
-						</p>
+			<div class="about-container">
+				<div class="about-avatar">
+					<img src="avatar.jpg" alt="avatar">
+				</div>
+				<div class="about-text">
+					<p>
+						Hola, soy <span class="primary-color">Dmitry</span>, un cientifico de datos con 
+						experiencia en el desarrollo de modelos de aprendizaje automatico y en la creacion
+						de aplicaciones web. Me encanta trabajar con datos y crear modelos que puedan
+						ayudar a las empresas a tomar mejores decisiones. Tambien me gusta crear aplicaciones 
+						moviles. Tengo experiencia trabajando en la nube creando soluciones a gran escala 
+						utilizando arquitecturas de microservicios.
+					</p>
+					<div class="about-tabs">
+						<p class="tab-link active-link" onclick="selectTab('techstack')">Tecnologias</p>
+						<p class="tab-link" onclick="selectTab('skills')">Habilidades</p>
+						<p class="tab-link" onclick="selectTab('education')">Educacion</p>
+						<p class="tab-link" onclick="selectTab('experience')">Experiencia</p>
+					</div>
+					<div class="tab-contents active-tab" id="techstack">
+						<p>Python</p>
+						<p>Dart</p>
+						<p>Bash</p>
+						<p>Rust</p>
+					</div>
+					<div class="tab-contents" id="skills">
+						<p>Analisis de datos</p>
+						<p>Visualizacion de datos</p>
+						<p>Machine Learning</p>
+						<p>Deep Learning</p>
+						<p>Desarrollo web</p>
+						<p>Desarrollo de software</p>
+						<p>Web Scraping</p>
+						<p>Automatizacion</p>
+					</div>
+					<div class="tab-contents" id="education">
+						<p>Bootcamp de Data Science & IA en HACKABOSS</p>
+						<p>Grado en Psicologia en la Universidad de Almeria</p>
+					</div>
+					<div class="tab-contents" id="experience">
+						<p>Sector de hosteleria</p>
 					</div>
 				</div>
-
 			</div>
 		</article>
 

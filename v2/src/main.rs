@@ -20,6 +20,7 @@ fn handle_connection(mut stream: TcpStream) {
 
     let mut endpoints: HashMap<&[u8], &str> = HashMap::new();
     endpoints.insert(b"GET / HTTP/1.1\r\n", "index.html");
+    endpoints.insert(b"GET /script.js HTTP/1.1\r\n", "script.js");
     endpoints.insert(b"GET /style.css HTTP/1.1\r\n", "style.css");
     endpoints.insert(b"GET /github.svg HTTP/1.1\r\n", "github.svg");
     endpoints.insert(b"GET /linkedin.svg HTTP/1.1\r\n", "linkedin.svg");

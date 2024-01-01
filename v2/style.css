@@ -77,10 +77,10 @@ nav {
 
 #landing {
 	height: 100vh;
-}
-
-#landing h1 {
-	font-size: 4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .main-container {
@@ -89,6 +89,11 @@ nav {
 	align-items: center;
 
 	height: 100vh;
+	max-width: 90vw;
+}
+
+.main-container h1 {
+	font-size: 4rem;
 }
 
 /* ===================================== */
@@ -106,11 +111,66 @@ nav {
 	align-items: start;
 	height: 100vh;
 	background-color: #222222;
+
+	padding: 2rem;
 }
 
 #about h2 {
 	font-size: 3rem;
 }
+
+.about-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.about-avatar {
+	width: 20rem;
+	min-width: 20rem;
+	height: 25rem;
+	border-radius: 15%;
+
+	border: 1px solid #ff0062;
+}
+
+.about-text {
+	padding-left: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+}
+
+.about-tabs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 1rem;
+}
+
+.about-tabs p {
+	text-decoration: none;
+	margin-right: 1rem;
+}
+
+.tab-link {
+	color: aliceblue;
+}
+
+.active-link {
+	color: #ff0062;
+}
+
+.tab-contents {
+	display: none;
+}
+
+.active-tab {
+	display: block;
+}
+
 
 /* ===================================== */
 
