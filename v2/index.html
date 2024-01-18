@@ -5,7 +5,8 @@
 	<title>Dmitry Ryzhenkov</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="desktop.css">
-	
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
 	<script src="script.js"></script>
 </head>
 
@@ -36,7 +37,7 @@
 		<article id="about">
 			<div class="about-container">
 				<div class="about-avatar">
-					<img src="avatar.jpg" alt="avatar">
+					<img src="avatar.jpeg" alt="avatar">
 				</div>
 				<div class="about-text">
 					<h2>SOBRE MI</h2>
@@ -182,13 +183,30 @@
 				<div class="portfolio-item">
 					<div class="portfolio-item-image-container">
 						<div class="portfolio-item-image">
-							<img src="portfolio1.jpg" alt="portfolio1">
+							<img src="pisoscom.jpg" alt="pisoscom">
 						</div>
 					</div>
 					<div class="portfolio-item-text-container">
 						<div class="portfolio-item-text">
-							<h3>Proyecto 1</h3>
-							<p>Descripcion del proyecto 1</p>
+							<h3>Calculadora de viviendas</h3>
+							<p>
+                            En este trabajo se ha desarrollado una aplicación web que permite calcular el precio de una vivienda
+                            en función de sus características. Todo el proyecto se ha escrito completamente en Python, utilizando 
+                            Streamlit para el front-end y FastAPI para el back-end. De fondo utiliza un modelo de regresión Random Forest 
+                            que ofrece la librería de Scikit-learn.
+                            <br><br>
+                            Los datos de entrenamiento y validación se han obtenido de internet mediante técnicas de web scraping. Se ha 
+                            utilizado la librería de Selenium para la extracción de datos y BeautifulSoup para el preprocesamiento de los mismos. 
+                            Durante el desarrollo, se han creado herramientas internas para trabajar con el scraper y los datos desde la línea de comandos. 
+                            <br><br>
+                            El back-end se ha desplegado en una instancia de EC2 de AWS y el front-end en el servicio de hosting de Streamlit.
+                            No obstante, actualmente la aplicación esta desplegada como un monolito para ahorrar recursos de AWS.
+                            </p>
+                        </div>
+                        <div class="portfolio-item-text">
+                            <p class="code">
+                                Machine Learning, Web Scraping, Web Development, AWS
+                            </p>
 						</div>
 					</div>
 				</div>

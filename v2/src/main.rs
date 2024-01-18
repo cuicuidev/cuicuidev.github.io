@@ -3,6 +3,7 @@ use std::net::TcpStream;
 use std::net::TcpListener;
 use std::fs::File;
 use std::collections::HashMap;
+use base64;
 
 const DEBUG: bool = true;
 
@@ -26,6 +27,7 @@ fn handle_connection(mut stream: TcpStream) {
     endpoints.insert(b"GET /linkedin.svg HTTP/1.1\r\n", "linkedin.svg");
     endpoints.insert(b"GET /gmail.svg HTTP/1.1\r\n", "gmail.svg");
     endpoints.insert(b"GET /discord.svg HTTP/1.1\r\n", "discord.svg");
+    endpoints.insert(b"GET /pisoscom.jpg HTTP/1.1\r\n", "pisoscom.jpg");
 
     let mut response = String::new();
 
@@ -50,23 +52,57 @@ fn handle_connection(mut stream: TcpStream) {
 
 fn generate_response(filename: &str) -> String {
     let mut response = String::new();
-    let mut file = File::open(filename).unwrap();
 
-    response.push_str("HTTP/1.1 200 OK\r\n");
-    response.push_str("\r\n");
+    let extension = filename.split('.').last().unwrap();
+    log(format!("Extension: {}", extension).as_str());
 
-    file.read_to_string(&mut response).unwrap();
+    let is_binary = match extension {
+        "html" | "css" | "js" | "svg" => false,
+        _ => true,
+    };
+
+    if is_binary {
+        let contents = read_binary_file(filename);
+        let encoded_contents = base64::encode(&contents);
+
+        response.push_str("HTTP/1.1 200 OK\r\n");
+        response.push_str(format!("Content-Type: image/{}; charset=UTF-8\r\n", extension).as_str());
+        response.push_str("Content-Transfer-Encoding: base64\r\n");
+        response.push_str("\r\n");
+        response.push_str(&encoded_contents);
+    } else {
+        let contents = read_text_file(filename);
+        response.push_str("HTTP/1.1 200 OK\r\n");
+        response.push_str("\r\n");
+        response.push_str(&contents);
+    }
+
     response
+
+}
+
+fn read_text_file(filename: &str) -> String {
+    let mut file = File::open(filename).unwrap();
+    let mut contents = String::new();
+
+    file.read_to_string(&mut contents).unwrap();
+    contents
+}
+
+fn read_binary_file(filename: &str) -> Vec<u8> {
+    let mut file = File::open(filename).unwrap();
+    let mut contents = Vec::new();
+
+    file.read_to_end(&mut contents).unwrap();
+    contents
 }
 
 fn main() {
-    let listener = TcpListener::bind("0.0.0.0:80").unwrap();
-    log("Listening on port 80");
-
+    let listener = TcpListener::bind("127.0.0.1:80").unwrap();
+    
     for stream in listener.incoming() {
         let stream = stream.unwrap();
+
         handle_connection(stream);
     }
-
-    log("Shutting down");
 }
