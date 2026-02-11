@@ -10,14 +10,292 @@ e:"$Sreact.suspense"
 10:I[7150,[],""]
 :HL["/_next/static/css/3b3a4aae155db8f5.css","style"]
 :HL["/_next/static/css/911e6a603adbdfb3.css","style"]
-0:{"P":null,"b":"mAkbRufe_FZEpFnaBPt0z","p":"","c":["","es","blog","_roc",""],"i":false,"f":[[["",{"children":[["lang","es","d"],{"children":["blog",{"children":[["slug","_roc","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3b3a4aae155db8f5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"es","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,700;1,7..72,400&display=swap","rel":"stylesheet"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"className":"font-body","children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L4",null,{}]]}]]}]]}],{"children":[["lang","es","d"],["$","$1","c",{"children":[null,"$L5"]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","_roc","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/911e6a603adbdfb3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L7",null,{"children":["$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lb",null,{"children":"$Lc"}],null],["$","$Ld",null,{"children":["$","div",null,{"hidden":true,"children":["$","$e",null,{"fallback":null,"children":"$Lf"}]}]}]]}],false]],"m":"$undefined","G":["$10",[]],"s":false,"S":true}
-6:E{"digest":"NEXT_HTTP_ERROR_FALLBACK;404"}
-11:I[1458,["830","static/chunks/830-976b0e400380b380.js","619","static/chunks/619-ba102abea3e3d0e4.js","880","static/chunks/880-cc21bccb68b04c38.js","795","static/chunks/795-313c0834158edbb4.js","118","static/chunks/118-5f95f96ef03f9eb2.js","897","static/chunks/897-4e6ebf3dcdb08aff.js","160","static/chunks/app/%5Blang%5D/layout-a2a7f1d6140a01a0.js"],"ThemeProvider"]
-12:I[6029,["830","static/chunks/830-976b0e400380b380.js","619","static/chunks/619-ba102abea3e3d0e4.js","880","static/chunks/880-cc21bccb68b04c38.js","795","static/chunks/795-313c0834158edbb4.js","118","static/chunks/118-5f95f96ef03f9eb2.js","897","static/chunks/897-4e6ebf3dcdb08aff.js","160","static/chunks/app/%5Blang%5D/layout-a2a7f1d6140a01a0.js"],"default"]
-13:I[5759,["830","static/chunks/830-976b0e400380b380.js","619","static/chunks/619-ba102abea3e3d0e4.js","880","static/chunks/880-cc21bccb68b04c38.js","795","static/chunks/795-313c0834158edbb4.js","118","static/chunks/118-5f95f96ef03f9eb2.js","897","static/chunks/897-4e6ebf3dcdb08aff.js","160","static/chunks/app/%5Blang%5D/layout-a2a7f1d6140a01a0.js"],"default"]
-5:["$","$L11",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":["$","div",null,{"className":"flex min-h-screen flex-col","children":[["$","$L12",null,{"lang":"es","dict":{"home":"Currículum","portfolio":"Portafolio","blog":"Blog"}}],["$","main",null,{"className":"flex-grow","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-muted/50","children":["$","div",null,{"className":"container mx-auto px-4 py-6 text-center text-sm text-muted-foreground sm:px-6 lg:px-8","children":["$","p",null,{"children":"© 2026 Dmitry Ryzhenkov. Todos los derechos reservados."}]}]}],["$","$L13",null,{}]]}]}]
+0:{"P":null,"b":"a2PHeSI9IwGe29JJz-bVI","p":"","c":["","es","blog","_roc",""],"i":false,"f":[[["",{"children":[["lang","es","d"],{"children":["blog",{"children":[["slug","_roc","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3b3a4aae155db8f5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"es","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,700;1,7..72,400&display=swap","rel":"stylesheet"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"className":"font-body","children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L4",null,{}]]}]]}]]}],{"children":[["lang","es","d"],["$","$1","c",{"children":[null,"$L5"]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","_roc","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/911e6a603adbdfb3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L7",null,{"children":["$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lb",null,{"children":"$Lc"}],null],["$","$Ld",null,{"children":["$","div",null,{"hidden":true,"children":["$","$e",null,{"fallback":null,"children":"$Lf"}]}]}]]}],false]],"m":"$undefined","G":["$10",[]],"s":false,"S":true}
+11:I[7041,["330","static/chunks/d3ac728e-9bda08882a284e4c.js","830","static/chunks/830-976b0e400380b380.js","619","static/chunks/619-ba102abea3e3d0e4.js","393","static/chunks/393-a1d2a4b7a553b1c6.js","12","static/chunks/app/%5Blang%5D/blog/%5Bslug%5D/page-8bbd5aa478fe2007.js"],"default"]
+12:T55e8,Most binary classification models do not output a definitive `0` or `1` class label immediately. Instead, they output a continuous score, often a probability estimate $ P(Y=1|X) $. To convert this score into a hard prediction, we must apply a **decision threshold**, $ \tau $.
+
+The rule is simple. If a sample's score exceeds $ \tau $, we classify it as positive (`1`). Otherwise, it is classified as negative (`0`). This implies that a model's performance is not fixed. It is a function of the chosen threshold $ \tau $, which defaults to `0.5` in most software packages but is rarely the optimal choice for real-world problems.
+
+To see how the threshold impacts performance, we look at the confusion matrix:
+
+$$
+\begin{array}{c|cc}
+ & \textbf{Predicted 1} & \textbf{Predicted 0} \\
+\hline
+\textbf{Actual 1} & \text{True Positives (TP)} & \text{False Negatives (FN)} \\
+\textbf{Actual 0} & \text{False Positives (FP)} & \text{True Negatives (TN)}
+\end{array}
+$$
+
+- **True Positives (TP):** Positive samples correctly classified as positive.
+- **False Positives (FP):** Negative samples incorrectly classified as positive.
+- **True Negatives (TN):** Negative samples correctly classified as negative.
+- **False Negatives (FN):** Positive samples incorrectly classified as negative.
+
+These counts are functions of the threshold: $TP(\tau)$, $FP(\tau)$, $TN(\tau)$, and $FN(\tau)$. Imagine sliding $ \tau $ downwards from `1` to `0`. As you lower the bar for what counts as "positive", you naturally capture more True Positives. This increases your **Recall** (or Sensitivity). However, you inevitably capture more noise too, increasing False Positives and consequently lowering your **Precision**.
+
+This trade-off is fundamental. You cannot usually maximize both Recall and Precision simultaneously.
+
+### The ROC Space
+
+To analyze this behavior independently of the class balance (the ratio of positives to negatives in your dataset), we normalize the raw counts into rates. The Receiver Operating Characteristic (ROC) curve is simply the visualization of this trade-off in a 2D space defined by two specific metrics.
+
+The Y-axis is the **True Positive Rate (TPR)**. As mentioned, this is synonymous with Recall or Sensitivity. It tracks the percentage of actual positives we successfully found:
+
+$$ TPR(\tau) = \frac{TP(\tau)}{\text{Total Actual Positives}} $$
+
+The X-axis is the **False Positive Rate (FPR)**. This tracks the percentage of actual negatives that we incorrectly flagged as positive. In statistical terms, this is equivalent to $ 1 - \text{Specificity} $:
+
+$$ FPR(\tau) = \frac{FP(\tau)}{\text{Total Actual Negatives}} $$
+
+The ROC curve plots the relationship between these two rates. As we relax the threshold, both TPR and FPR tend to increase. The goal is to see how quickly TPR increases relative to FPR.
+
+### The Curve
+
+Formally, the ROC curve is the locus of points $(FPR(\tau), TPR(\tau))$ for all values of $ \tau $ ranging from `1` down to `0`. Since our test sets are finite, each unique score produced by the model results in a discrete step on the curve.
+
+Please, behold:
+
+---
+**[FIGURE 1]**
+**Description:** A two-panel figure.
+- **Panel A:** A number line from 0 to 1. On it are plotted several points representing model scores. The points are colored differently for true positive and true negative samples. An arrow labeled with the threshold $ \tau $ is shown sliding from right to left (from 1 towards 0).
+- **Panel B:** An ROC space plot (FPR vs. TPR). As the $ \tau $ arrow slides in Panel A, a point traces the corresponding ROC curve in Panel B. A small table updates with the current TP, FP, TPR, and FPR values for the position of $ \tau $.
+---
+
+This process has two mathematically defined endpoints:
+
+1.  **Conservative extreme ($ \tau > \text{max(score)} $):** The model classifies everything as negative. Consequently, $TP=0$ and $FP=0$. This corresponds to the point **(0, 0)** in the ROC space.
+2.  **Permissive extreme ($ \tau < \text{min(score)} $):** The model classifies everything as positive. We find all actual positives ($TPR=1$), but we also misclassify every single negative instance ($FPR=1$). This corresponds to the point **(1, 1)**.
+
+Connecting the points generated by each unique score between these two extremes traces the complete curve. Every single point on this line represents a potential operating configuration for your model, which you can achieve simply by selecting the corresponding threshold.
+
+## Area and Geometry
+
+Now that we have constructed the curve, we can analyze it. While the geometry of the ROC space provides context, the standard analysis involves calculating the area underneath that curve.
+
+### The Area Under the Curve (AUC)
+
+The AUC is exactly what it sounds like: the integral of the ROC function with respect to the False Positive Rate. Formally:
+
+$$ AUC = \int_{0}^{1} TPR(FPR) \ dFPR $$
+
+This definition is precise, yet it lacks intuition. In practice, the AUC is almost always interpreted probabilistically rather than geometrically:
+
+**The AUC is the probability that a randomly chosen positive sample will receive a higher score from the classifier than a randomly chosen negative sample.**
+
+Let $ s(x) $ be the score assigned by the model to a sample $ x $. If we take a random positive sample $ x_+ $ and a random negative sample $ x_- $, the AUC is simply:
+
+$$ AUC = P(s(x_+) > s(x_-)) $$
+
+This links the metric directly to ranking quality. The area maximizes when all positive samples are scored higher than all negative samples, implying a perfect separation.
+
+#### A Formal Derivation
+
+You might be wondering why a geometric area corresponds so neatly to a ranking probability. We can satisfy that curiosity with some calculus. Please, don't run away, this is not as hard as it looks.
+
+Let's define the probability density functions of the scores for the positive and negative classes as $ f_P(s) $ and $ f_N(s) $, respectively. Their corresponding cumulative distribution functions are $ F_P(s) $ and $ F_N(s) $.
+
+For a specific decision threshold $ \tau $, we can express the TPR and FPR using these distributions. The TPR is the probability a positive sample scores above $ \tau $:
+
+$$ TPR(\tau) = P(Score > \tau | \text{Positive}) = \int_{\tau}^{\infty} f_P(s) \ ds = 1 - F_P(\tau) $$
+
+Similarly, the FPR is the probability a negative sample scores above $ \tau $:
+
+$$ FPR(\tau) = P(Score > \tau | \text{Negative}) = \int_{\tau}^{\infty} f_N(s) \ ds = 1 - F_N(\tau) $$
+
+The AUC is the integral of $ TPR $ over the range of $ FPR $. To solve this, we perform a change of variables to integrate over the score threshold $ \tau $ instead. Since $ FPR = 1 - F_N(\tau) $, the differential is $ dFPR = -f_N(\tau) \ d\tau $.
+
+We must also update the limits of integration. As $ \tau \to \infty $ (conservative threshold), the $ FPR \to 0 $. As $ \tau \to -\infty $ (permissive threshold), the $ FPR \to 1 $. Substituting these into the original integral:
+
+$$ AUC = \int_{FPR=0}^{1} TPR(FPR) \ dFPR = \int_{\tau=\infty}^{-\infty} TPR(\tau) (-f_N(\tau) \ d\tau) $$
+
+We can flip the integration limits, which conveniently cancels the negative sign:
+
+$$ AUC = \int_{-\infty}^{\infty} TPR(\tau) f_N(\tau) \ d\tau $$
+
+Now, we substitute the definition of $ TPR(\tau) $:
+
+$$ AUC = \int_{-\infty}^{\infty} (1 - F_P(\tau)) f_N(\tau) \ d\tau $$
+
+This integral now tells a clear story. It represents the expectation of the quantity $ 1 - F_P(\tau) $, where $ \tau $ is a random variable drawn from the distribution of negative scores. Since $ 1 - F_P(\tau) $ is simply the probability $ P(s(x_+) > \tau) $, the integral calculates the probability that a randomly drawn positive sample $ x_+ $ has a score greater than a randomly drawn negative sample $ x_- $.
+
+$$ AUC = \int_{-\infty}^{\infty} P(s(x_+) > \tau | \tau) f_N(\tau) \ d\tau = P(s(x_+) > s(x_-)) $$
+
+### Tangent
+
+The AUC is directly related to another statistical measure of separation called the Gini coefficient. While often used in economics to measure wealth inequality, in this context, it measures the inequality in score distributions between the positive and negative classes.
+
+The Gini coefficient is typically derived from the **Lorenz curve**. For a model, the Lorenz curve plots the cumulative fraction of true positives (on the y-axis) against the cumulative fraction of the total population (on the x-axis), after sorting all samples by their score in descending order.
+
+---
+**[FIGURE 2]**
+**Description:** A two-panel figure comparing the Lorenz Curve and the ROC Curve.
+*   **Panel A (Lorenz Curve):** An plot with axes "Cumulative % of Population" (0 to 1) and "Cumulative % of True Positives" (0 to 1). A diagonal "Line of Equality" is drawn. A sample Lorenz curve for a good model is shown, starting steep and then flattening. The area between the line of equality and the Lorenz curve is shaded and labeled 'A'.
+*   **Panel B (ROC Curve):** A standard ROC plot (FPR vs TPR). The diagonal "Line of No-Discrimination" is drawn. A corresponding ROC curve is shown. The area under the ROC curve is shaded and labeled 'AUC'.
+---
+
+In this space, a diagonal line represents a random model that finds positives at the same rate as the population is sampled. A perfect model would find all positives immediately, creating a curve that rises vertically to 1 and then moves horizontally. The Gini coefficient is defined as twice the area between the line of equality and the model's Lorenz curve.
+
+The relationship between the Gini coefficient and AUC is a simple linear transformation:
+
+$ Gini = 2 \times AUC - 1 $
+
+This transformation arises from the different x-axes used by the two curves. The ROC curve's x-axis (FPR) considers only the negative population, while the Lorenz curve's x-axis considers the entire population. The Gini coefficient effectively rescales the AUC score:
+*   An AUC of **0.5** (random model) yields a Gini of **0**.
+*   An AUC of **1.0** (perfect model) yields a Gini of **1**.
+*   An AUC of **0.0** (perfectly wrong model) yields a Gini of **-1**.
+
+This rescaling can make the Gini coefficient a more intuitive measure of separation, as it sets the baseline for a useless model to zero.
+
+### The ROC Space
+
+The ROC plot is not just a canvas for the curve; its geometry provides critical context.
+
+**The Line of No-Discrimination**
+The main diagonal, where $TPR = FPR$, is the line of no-discrimination. Any point on this line represents the performance of a classifier with no skill, equivalent to random guessing. For instance, a model that randomly flags 20% of all samples as positive will, on average, correctly identify 20% of the true positives ($TPR=0.2$) and incorrectly flag 20% of the true negatives ($FPR=0.2$). A model whose ROC curve falls on this diagonal has no separation power. Useful models must have curves that lie above this diagonal.
+
+**The Line of Symmetry**
+The secondary diagonal, where $TPR = 1 - FPR$ (or $TPR + FPR = 1$), is another important geometric reference. This line represents points where the rate of correctly classified positives ($TP/P$) is equal to the rate of correctly classified negatives ($TN/N$, since $TN/N = 1 - FPR$). We will revisit this line in the next section, as it is key to analyzing the symmetry and potential biases of a model's performance.
+
+## Shape, Slope, and Sections
+
+The AUC provides a single-value summary of a model's ranking ability, but the ROC curve's true diagnostic power lies in its shape. By analyzing its geometry, local slope, and specific regions, we can extract a more nuanced understanding of a model's behavior.
+
+### Geometric Bias 
+
+In the previous section, we introduced the secondary diagonal, defined by the equation $TPR = 1 - FPR$, as a line of symmetry. This line is significant because it represents points of balanced performance, where the True Positive Rate is equal to the True Negative Rate (since $TNR = 1 - FPR$). A model operating at a threshold that places it on this line is equally skilled at identifying positive and negative samples.
+
+The shape of the ROC curve relative to this diagonal reveals the model's inherent bias.
+
+*   If the curve is predominantly **above** the secondary diagonal ($TPR > 1 - FPR$), it indicates that for most thresholds, the model's sensitivity is greater than its specificity. The model is biased towards correctly identifying positive samples, even at the risk of misclassifying negatives.
+*   If the curve is predominantly **below** the secondary diagonal ($TPR < 1 - FPR$), the model's specificity is generally greater than its sensitivity. It is biased towards correctly identifying negative samples, often at the cost of missing some positives.
+
+---
+**[FIGURE 3]**
+**Description:** A single ROC space plot.
+*   The main diagonal ($TPR=FPR$) and the secondary diagonal ($TPR=1-FPR$) are drawn as dashed lines for reference.
+*   Two ROC curves are shown:
+    *   One curve (labeled "High Sensitivity Bias") bows significantly upwards, staying mostly above the secondary diagonal.
+    *   Another curve (labeled "High Specificity Bias") travels a lower path, staying mostly below the secondary diagonal.
+*   Regions are labeled to show where $TPR > TNR$ and where $TNR > TPR$.
+---
+
+This analysis provides insight into a model's character. Is it "liberal", making positive predictions more readily, or is it "conservative"? This is a critical property to understand before deploying a model, as it determines the nature of the errors it is most likely to make.
+
+### Derivative Analytics 
+
+Beyond the overall shape, the local slope of the ROC curve at any given point contains precise information. The slope, $m = \frac{d(TPR)}{d(FPR)}$, reveals the instantaneous trade-off between TPR and FPR.
+
+Using the definitions of TPR and FPR based on the score probability density functions ($f_P(s)$ for positives, $f_N(s)$ for negatives) at a threshold $\tau$, we can derive the meaning of the slope via the chain rule:
+
+$ m(\tau) = \frac{d(TPR)/d\tau}{d(FPR)/d\tau} $
+
+From Part 2, we know that $TPR(\tau) = \int_{\tau}^{\infty} f_P(s) ds$, so by the Fundamental Theorem of Calculus, $\frac{d(TPR)}{d\tau} = -f_P(\tau)$. Similarly, $\frac{d(FPR)}{d\tau} = -f_N(\tau)$. Substituting these into the equation for the slope gives:
+
+$ m(\tau) = \frac{-f_P(\tau)}{-f_N(\tau)} = \frac{f_P(\tau)}{f_N(\tau)} $
+
+This result is the **likelihood ratio** for the score $\tau$. It is the ratio of the probability density of a score coming from the positive class to the probability density of it coming from the negative class.
+
+The interpretation is direct:
+*   A steep slope ($m \gg 1$) corresponds to a threshold $\tau$ where a score is far more likely to have been generated by a positive sample than a negative one. In this region, lowering the threshold is highly "efficient," yielding a large gain in TPR for a small cost in FPR.
+*   A shallow slope ($m \ll 1$) corresponds to a threshold where a score is more likely to belong to a negative sample. Lowering the threshold in this region provides diminishing returns, with TPR gains being overshadowed by larger increases in FPR.
+*   A slope of $m=1$ indicates a threshold where a score is equally likely to come from either class.
+
+Analyzing the slope tells us precisely how the model's discriminative power changes as we vary the decision threshold.
+
+### Partial AUC
+
+The global AUC considers the model's performance across the entire range of FPRs, from 0 to 1. However, in many practical applications, operating a model at a high FPR is unacceptable. For example, in medical screening, a high FPR would lead to an excessive number of healthy patients undergoing unnecessary and costly follow-up procedures.
+
+In such cases, we are only interested in the model's performance within a specific, operational range of FPRs. This is the motivation for the **Partial Area Under the Curve (pAUC)**. The pAUC is the integral of the ROC curve over a constrained FPR range, typically from 0 to a maximum acceptable FPR, $FPR_{max}$.
+
+$$ pAUC(0, FPR_{max}) = \int_{0}^{FPR_{max}} TPR(FPR) \ dFPR $$
+
+Calculating the pAUC allows an evaluation that is directly aligned with business or clinical constraints. It prevents a model that performs poorly in the critical low-FPR region but well at high, unusable FPRs from receiving a misleadingly high overall AUC score.
+
+For comparison purposes, it is common to normalize the pAUC. A raw pAUC value depends on the chosen $FPR_{max}$, making it difficult to compare values across different ranges. The normalization rescales the pAUC to the range [0.5, 1.0], putting it on a similar scale to the full AUC. The formula for this is:
+
+$$ pAUC_{normalized} = \frac{1}{2} \left( 1 + \frac{pAUC - pAUC_{min}}{pAUC_{max} - pAUC_{min}} \right) $$
+
+Where `min_pAUC` is the area under the diagonal (random) line in the specified FPR range, and `max_pAUC` is the area of a perfect classifier in that range.
+
+Using pAUC ensures that model selection is driven by performance in the regions that matter, leading to a more robust and reliable decision-making process.
+
+## Strengths and Weaknesses
+
+No single evaluation metric is universally optimal. While the ROC curve is a powerful tool for understanding a model's discriminative ability, its utility depends on the context. Its primary weakness emerges in the face of significant class imbalance, a common scenario in many real-world problems.
+
+### Insensitivity to Class Imbalance
+
+The ROC curve's insensitivity to class imbalance is a direct consequence of how its axes are defined.
+*   **True Positive Rate (Y-axis):** $ TPR = \frac{TP}{P} $ (normalized by the number of positives)
+*   **False Positive Rate (X-axis):** $ FPR = \frac{FP}{N} $ (normalized by the number of negatives)
+
+Because both axes are rates normalized independently by their own class counts, the shape of the ROC curve does not change when the ratio of positive to negative samples changes, provided the model's underlying score distribution for each class remains the same.
+
+This can be profoundly misleading. Consider a model evaluated under two scenarios:
+
+**Scenario A (Balanced):**
+*   100 positive samples, 100 negative samples.
+*   At a given threshold, the model yields 90 TPs and 10 FPs.
+*   $TPR = 90/100 = 0.9$
+*   $FPR = 10/100 = 0.1$
+*   The corresponding point on the ROC curve is **(0.1, 0.9)**.
+
+**Scenario B (Imbalanced):**
+*   100 positive samples, **10,000** negative samples.
+*   The model's scoring behavior is identical. The same threshold that previously gave a 0.1 FPR will still misclassify 10% of negatives.
+*   We still have 90 TPs, but now we have $0.1 \times 10,000 = 1,000$ FPs.
+*   $TPR = 90/100 = 0.9$
+*   $FPR = 1,000/10,000 = 0.1$
+*   The point on the ROC curve is still **(0.1, 0.9)**.
+
+The ROC curve is identical in both scenarios, and a high AUC might suggest excellent performance. However, the operational outcome in Scenario B is disastrous: for every 90 true positives we find, we are burdened with 1,000 false alarms. The ROC curve is blind to this distinction.
+
+### The Alternative
+
+For problems where the positive class is rare and the cost of false positives is high, the Precision-Recall (PR) curve is a more informative tool. Its axes are defined as:
+
+*   **Recall (X-axis):** This is simply the TPR. $ Recall = \frac{TP}{P} $.
+*   **Precision (Y-axis):** This metric answers the question, "Of all the samples we predicted as positive, what fraction were actually positive?" $ Precision = \frac{TP}{TP + FP} $.
+
+The key difference is Precision's denominator. It is the total number of positive predictions ($TP+FP$), not the total number of actual negatives. This makes Precision highly sensitive to the absolute number of false positives. This sensitivity to class prevalence is fundamental, as can be shown through the lens of Bayes' theorem. Precision is the posterior probability that a sample is positive given a positive prediction, $P(Y=1 | \hat{Y}=1)$. Expressed using TPR, FPR, and the class priors ($P(Y=1)$ and $P(Y=0)$), it becomes:
+
+$ \text{Precision} = \frac{TPR \cdot P(Y=1)}{TPR \cdot P(Y=1) + FPR \cdot P(Y=0)} $
+
+This equation formally demonstrates that Precision is fundamentally dependent on the class distribution. If the positive class is rare, its prior probability $P(Y=1)$ is small, and the term $FPR \cdot P(Y=0)$ in the denominator can dominate, causing Precision to drop significantly even for a small FPR.
+
+Let's revisit our example with the PR curve:
+*   **Scenario A (Balanced):** Precision = 90 / (90 + 10) = **0.9**
+*   **Scenario B (Imbalanced):** Precision = 90 / (90 + 1000) = **~0.083**
+
+The PR curve correctly captures the dramatic decay in performance, which the ROC curve missed entirely.
+
+#### ROC vs PR
+
+The choice depends on the problem's objective and data characteristics.
+
+**Use the ROC Curve when:**
+*   The classes are relatively balanced.
+*   The costs of false positives and false negatives are similar.
+*   The primary goal is to assess the model's overall ability to separate the two classes, regardless of the class distribution. It answers the question: "How well can the model distinguish between positives and negatives?"
+
+**Use the Precision-Recall Curve when:**
+*   There is a large class imbalance, and the minority (positive) class is the one of interest.
+*   The cost of false positives is high. This is typical in "find the needle in the haystack" problems like fraud detection, rare disease screening, or spam filtering. It answers the question: "How reliable are my model's positive predictions?"
+
+---
+**[FIGURE 4]**
+**Description:** A two-panel figure.
+*   **Panel A (ROC Curves):** A single ROC plot showing two curves overlaid: "Model A on Balanced Data" and "Model A on Imbalanced Data". The two curves are nearly identical.
+*   **Panel B (PR Curves):** A single PR plot showing two curves overlaid for the same models. The curve for the balanced data is high. The curve for the imbalanced data is significantly lower, showing a sharp drop in precision as recall increases.6:["$","main",null,{"className":"container mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8","children":["$","article",null,{"children":["$","div",null,{"ref":"$undefined","className":"rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden","children":[["$","div",null,{"ref":"$undefined","className":"flex flex-col p-6 space-y-4","children":[["$","div",null,{"className":"space-y-2","children":[["$","div",null,{"className":"inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground text-sm","children":"Blog Post"}],["$","div",null,{"ref":"$undefined","className":"font-semibold font-headline text-4xl leading-tight tracking-tight","children":"Look at the Curve, Not Just the Area"}]]}],["$","div",null,{"className":"description-differentiable prose prose-stone dark:prose-invert max-w-none font-body text-lg text-muted-foreground","children":["$","$L11",null,{"markdown":"The ROC AUC score is a standard metric for evaluating binary classification models. However, this single value is a summary of a much richer visualization: the **Receiver Operating Characteristic (ROC)** curve itself. This curve reveals the full performance spectrum of a model by showing its behavior across all possible decision thresholds.\n\nThe primary value of the ROC curve is in measuring a model's **discriminative potential**; meaning, its intrinsic ability to separate positive and negative classes, independently of a pre-selected threshold. This allows us to analyze the model's trade-offs and select an optimal operating point later. This post deconstructs the curve from its foundational components.","lang":"es"}]}],["$","p",null,{"className":"text-sm text-muted-foreground","children":"2026/01/13"}]]}],["$","div",null,{"ref":"$undefined","className":"p-6 pt-0 prose prose-stone dark:prose-invert max-w-none font-body text-lg","children":["$","$L11",null,{"markdown":"$12","lang":"es"}]}]]}]}]}]
+13:I[1458,["830","static/chunks/830-976b0e400380b380.js","619","static/chunks/619-ba102abea3e3d0e4.js","880","static/chunks/880-cc21bccb68b04c38.js","795","static/chunks/795-313c0834158edbb4.js","118","static/chunks/118-5f95f96ef03f9eb2.js","897","static/chunks/897-4e6ebf3dcdb08aff.js","160","static/chunks/app/%5Blang%5D/layout-a2a7f1d6140a01a0.js"],"ThemeProvider"]
+14:I[6029,["830","static/chunks/830-976b0e400380b380.js","619","static/chunks/619-ba102abea3e3d0e4.js","880","static/chunks/880-cc21bccb68b04c38.js","795","static/chunks/795-313c0834158edbb4.js","118","static/chunks/118-5f95f96ef03f9eb2.js","897","static/chunks/897-4e6ebf3dcdb08aff.js","160","static/chunks/app/%5Blang%5D/layout-a2a7f1d6140a01a0.js"],"default"]
+15:I[5759,["830","static/chunks/830-976b0e400380b380.js","619","static/chunks/619-ba102abea3e3d0e4.js","880","static/chunks/880-cc21bccb68b04c38.js","795","static/chunks/795-313c0834158edbb4.js","118","static/chunks/118-5f95f96ef03f9eb2.js","897","static/chunks/897-4e6ebf3dcdb08aff.js","160","static/chunks/app/%5Blang%5D/layout-a2a7f1d6140a01a0.js"],"default"]
+5:["$","$L13",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":["$","div",null,{"className":"flex min-h-screen flex-col","children":[["$","$L14",null,{"lang":"es","dict":{"home":"Currículum","portfolio":"Portafolio","blog":"Blog"}}],["$","main",null,{"className":"flex-grow","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-muted/50","children":["$","div",null,{"className":"container mx-auto px-4 py-6 text-center text-sm text-muted-foreground sm:px-6 lg:px-8","children":["$","p",null,{"children":"© 2026 Dmitry Ryzhenkov. Todos los derechos reservados."}]}]}],["$","$L15",null,{}]]}]}]
 c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:null
-14:I[622,[],"IconMark"]
-a:{"metadata":[["$","title","0",{"children":"Post Not Found"}],["$","meta","1",{"name":"description","content":"Data Scientist & ML Engineer based in Spain."}],["$","link","2",{"rel":"icon","href":"/icon.svg?dc996749465f6dfc","type":"image/svg+xml","sizes":"any"}],["$","link","3",{"rel":"apple-touch-icon","href":"/apple-icon?733bd14a47b137d2","alt":"$undefined","type":"image/png","sizes":"32x32"}],["$","$L14","4",{}]],"error":null,"digest":"$undefined"}
+16:I[622,[],"IconMark"]
+a:{"metadata":[["$","title","0",{"children":"Look at the Curve, Not Just the Area | Blog"}],["$","meta","1",{"name":"description","content":"The ROC AUC score is a standard metric for evaluating binary classification models. However, this single value is a summary of a much richer visualization: the **Receiver Operating Characteristic (ROC)** curve itself. This curve reveals the full performance spectrum of a model by showing its behavior across all possible decision thresholds.\n\nThe primary value of the ROC curve is in measuring a model's **discriminative potential**; meaning, its intrinsic ability to separate positive and negative classes, independently of a pre-selected threshold. This allows us to analyze the model's trade-offs and select an optimal operating point later. This post deconstructs the curve from its foundational components."}],["$","link","2",{"rel":"icon","href":"/icon.svg?dc996749465f6dfc","type":"image/svg+xml","sizes":"any"}],["$","link","3",{"rel":"apple-touch-icon","href":"/apple-icon?733bd14a47b137d2","alt":"$undefined","type":"image/png","sizes":"32x32"}],["$","$L16","4",{}]],"error":null,"digest":"$undefined"}
 f:"$a:metadata"
