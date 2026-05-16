@@ -4,7 +4,7 @@
         <title>Dmitry Ryzhenkov</title>
         <link>https://cuicui.dev</link>
         <description>Data Scientist. Sometimes writes about statistics.</description>
-        <lastBuildDate>Sat, 16 May 2026 11:38:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 May 2026 11:54:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -17,7 +17,7 @@
         <item>
             <title><![CDATA[Modeling the Unobservable]]></title>
             <link>https://cuicui.dev/en/blog/modeling-the-unobservable/</link>
-            <guid isPermaLink="false">https://cuicui.dev/en/blog/modeling-the-unobservable/</guid>
+            <guid isPermaLink="false">modeling-the-unobservable</guid>
             <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[<p>Most statistical and ML models are built to predict an observable truth. Sometimes, however, we need to be able to infer abstract constructs such as risk tolerance, user trust, brand affinity or programming skill. This article explores how to extract these latent variables from noisy proxies using <strong>Item Response Theory</strong>.</p>
 ]]></description>
@@ -289,7 +289,7 @@ with pm.Model() as irt_3pl:
         <item>
             <title><![CDATA[Case Study: Team Partitioning]]></title>
             <link>https://cuicui.dev/en/blog/team-partitioning/</link>
-            <guid isPermaLink="false">https://cuicui.dev/en/blog/team-partitioning/</guid>
+            <guid isPermaLink="false">team-partitioning</guid>
             <pubDate>Mon, 12 Jan 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[<p>For years, forming student teams was a manual process driven by intuition and prone to failure. This project aimed to operationalize that intuition, replacing guesswork with an optimization engine designed to minimize social friction and maximize peer learning.</p>
 <p>The project spans two distinct implementations. It begins with a prototype that validated a core psychological hypothesis: that <strong>skill homogeneity</strong> mitigates social friction in project-based learning environments. It concludes with a deep dive into systems engineering, detailing how I rewrote the core engine using a modern systems programming language to tackle critical performance bottlenecks.</p>
